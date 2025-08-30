@@ -52,5 +52,41 @@
     "description": "Шаблон на React для творческих профессий: музыканты, битмейкеры, дизайнеры, художники итп",
     "stack": "React",
     "demo": "https://musicprojectreact.netlify.app"
+  },
+  {
+    "category": "wordpress",
+    "img": "/assets/img/portfolio/carservice.png",
+    "title": "Автомастерская",
+    "detailsTitle": "Лендинг для автомастерской",
+    "description": "Проект сделан на html/css и может быть перенесен на wordpress",
+    "stack": "HTML, CSS, Wordpress",
+    "demo": "https://carservice-web.netlify.app/"
+  },
+  {
+    "category": "wordpress",
+    "img": "/assets/img/portfolio/dolinahotel.png",
+    "title": "Отедль Долина",
+    "detailsTitle": "Лендинг для отеля",
+    "description": "Проект сделан на html/css и может быть перенесен на wordpress. Все страницы данного проекта содержат единый фон, меняется только контейнт",
+    "stack": "HTML, CSS, Wordpress",
+    "demo": "https://dolinahotel.netlify.app/"
+  },
+  {
+    "category": "wordpress",
+    "img": "/assets/img/portfolio/luxurycar.png",
+    "title": "Luxury Detail",
+    "detailsTitle": "Лендинг салона люксовых автомобилей",
+    "description": "Проект сделан на html/css и может быть перенесен на wordpress.",
+    "stack": "HTML, CSS, Wordpress",
+    "demo": "https://luxurycat-detailing.netlify.app/"
+  },
+  {
+    "category": "wordpress",
+    "img": "/assets/img/portfolio/softerio-tech.png",
+    "title": "Softerio Tech",
+    "detailsTitle": "Лендинг для студии разработки",
+    "description": "Проект сделан на html/css и может быть перенесен на wordpress.",
+    "stack": "HTML, CSS, Wordpress",
+    "demo": "https://softerio-tech.netlify.app/"
   }
 ]
