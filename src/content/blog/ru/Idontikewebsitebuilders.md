@@ -2,7 +2,7 @@
 title: "Почему я не люблю конструкторы сайтов"
 date: 2025-08-28
 description: "Все о подводных камнях при использовании конструкторов"
-tag: "Разработка"
+categories: ["Разработка"]  
 image: "/assets/img/blog/constructor.png"
 ---
 

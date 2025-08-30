@@ -2,7 +2,7 @@
 title: "Я ненавижу Blood Strike!"
 date: 2025-08-22
 description: "Blood Strike - это pay-to-win f2p шутер с анимешными клоунами и беспощаным донатом."
-tag: "Видеоигры"
+categories: ["Видеоигры"]   
 image: "/assets/img/blog/bloodstrike.jpg"
 ---
 

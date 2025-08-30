@@ -4,74 +4,104 @@ import Header from "../../components/Header.astro";
 import langData from "../../data/lang.json";
 import { getCollection } from "astro:content";
 
+// Текущий язык. Можно сделать динамическим через Astro.params.lang
 const currentLang = "en";
 
-// Получаем посты и сортируем от новых к старым
+// 1️⃣ Получаем все посты, которые начинаются с текущего языка
 let posts = await getCollection("blog", ({ slug }) =>
   slug.startsWith(`${currentLang}/`),
 );
 
+// 2️⃣ Сортируем посты по дате от новых к старым
 posts = posts
-  .sort((b, a) => {
-    return new Date(b.data.date).getTime() - new Date(a.data.date).getTime();
-  })
-  .reverse(); // или просто меняем местами a/b в sort
+  .sort(
+    (b, a) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime(),
+  )
+  .reverse(); // или поменять местами a и b в sort
+
+// 3️⃣ Собираем все уникальные категории из постов
+const categories = [
+  ...new Set(
+    posts.flatMap((p) => {
+      const c = p.data.categories;
+      if (!c) return [];
+      if (Array.isArray(c)) return c;
+      if (typeof c === "string") return [c];
+      return [];
+    }),
+  ),
+];
+
+// 4️⃣ Достаём переводы для текущего языка
+const safeLang: "en" = (Astro.params.lang ?? "en") as "en";
+const catDict = langData[safeLang].categories as Record<string, string>;
 ---
 
 <Layout title="Blog | Adam Lean">
-  <Header menu={langData[currentLang].menu} />
+  <Header menu={langData[safeLang].menu} />
 
-  <main class="content">
-    <section class="blog">
-      <div class="container">
+  <section class="categories-filter">
+    <div class="container">
+      <div class="categories-list">
+        <a href={`/${currentLang}/blog`}>Все</a>
         {
-          posts.length > 0 ? (
-            <div class="row g-4">
-              {posts.map((post) => {
-                const [lang, slug] = post.slug.split("/");
-                return (
-                  <div class="col-12 col-sm-6 col-lg-4">
-                    {" "}
-                    {/* <-- адаптивные колонки */}
-                    <article class="post-card">
-                      {post.data.image && (
-                        <a href={`${lang}/${slug}`}>
-                          <img
-                            src={post.data.image}
-                            alt={post.data.title}
-                            class="post-image"
-                          />
-                        </a>
-                      )}
-
-                      <div class="post-content">
-                        {post.data.tag && (
-                          <span class="post-tag">{post.data.tag}</span>
-                        )}
-                        <h2 class="post-title">
-                          <a href={`/${lang}/${slug}`}>{post.data.title}</a>
-                        </h2>
-                        {post.data.description && (
-                          <p>{post.data.description}</p>
-                        )}
-                        <div class="post-meta">
-                          <span>
-                            {post.data.date instanceof Date
-                              ? post.data.date.toLocaleDateString(lang)
-                              : post.data.date}
-                          </span>
-                        </div>
-                      </div>
-                    </article>
-                  </div>
-                );
-              })}
-            </div>
-          ) : (
-            <p>Empty</p>
-          )
+          categories.map((cat) => (
+            <li>
+              <a href={`/${currentLang}/category/${cat}`}>{cat}</a>
+            </li>
+          ))
         }
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
+
+  <section class="blog">
+    <div class="container">
+      {
+        posts.length > 0 ? (
+          <div class="row g-4">
+            {posts.map((post) => {
+              const [lang, slug] = post.slug.split("/");
+              return (
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <article class="post-card">
+                    {post.data.image && (
+                      <a href={`/${lang}/${slug}`}>
+                        <img
+                          src={post.data.image}
+                          alt={post.data.title}
+                          class="post-image"
+                        />
+                      </a>
+                    )}
+
+                    <div class="post-content">
+                      {post.data.categories && (
+                        <span class="category">{post.data.categories}</span>
+                      )}
+                      <h2 class="post-title">
+                        <a href={`/${lang}/blog/${slug}`}>
+                          {post.data.title as string}
+                        </a>
+                      </h2>
+                      {post.data.description && <p>{post.data.description}</p>}
+                      <div class="post-meta">
+                        <span>
+                          {post.data.date instanceof Date
+                            ? post.data.date.toLocaleDateString(lang)
+                            : post.data.date}
+                        </span>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              );
+            })}
+          </div>
+        ) : (
+          <p>Нет постов</p>
+        )
+      }
+    </div>
+  </section>
 </Layout>

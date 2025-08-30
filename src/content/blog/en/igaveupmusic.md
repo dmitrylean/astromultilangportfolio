@@ -2,7 +2,7 @@
 title: “From musician to developer. I gave up music.”
 date: 2025-08-21
 description: “This article is about my life journey. No matter how you look at it, if you're a techie, it's with you forever.”
-tag: “Psychology”
+categories: ["Psychology"]
 image: /assets/img/blog/livewithoutmusic.jpg
 ---
 

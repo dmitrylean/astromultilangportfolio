@@ -397,7 +397,7 @@ input, textarea {
   padding: 15px;
 }
 
-.post-tag {
+.category {
   display: inline-block;
   background: #2563eb;
   color: white;
@@ -496,4 +496,48 @@ input, textarea {
 
 .article-container a:hover {
   color: #80c0ff;
+}
+
+/* Categories */
+
+.categories-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 2rem;
+}
+
+.categories-list {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  list-style: none;
+}
+
+.categories-list a {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.categories-list li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.categories-list a:hover {
+  color: red;
 }

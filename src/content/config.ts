@@ -1,13 +1,13 @@
 import { defineCollection, z } from "astro:content";
 
 const blog = defineCollection({
-  type: "content",
   schema: z.object({
     title: z.string(),
-    date: z.date(),
+    date: z.coerce.date(),
     description: z.string().optional(),
-    tag: z.string().optional(),
     image: z.string().optional(),
+    // если в старых постах встречается строка, временно разреши union:
+    categories: z.union([z.array(z.string()), z.string()]).optional(),
   }),
 });
 

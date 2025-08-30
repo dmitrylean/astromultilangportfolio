@@ -22,3 +22,17 @@ export const skillsData = {
   ],
 };
 
+
+import type { CollectionEntry } from "astro:content";
+
+/**
+ * Преобразует поле categories из Markdown в массив строк
+ */
+export function extractCategories(post: CollectionEntry<"blog">): string[] {
+  const c = (post.data as any)?.categories;
+  if (!c) return [];
+  if (Array.isArray(c)) return c.map(String);
+  if (typeof c === "string") return [c];
+  return [];
+}
+

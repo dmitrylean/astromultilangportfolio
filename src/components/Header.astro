@@ -5,7 +5,42 @@ interface MenuItem {
   external?: boolean;
 }
 
-const { menu } = Astro.props as { menu: MenuItem[] };
+// безопасно берём пропс и нормализуем в массив MenuItem[]
+const rawMenu = (Astro.props as any).menu;
+let menu: MenuItem[] = [];
+
+if (Array.isArray(rawMenu)) {
+  menu = rawMenu as MenuItem[];
+} else if (rawMenu && typeof rawMenu === "object") {
+  // если передали одиночный объект {href,text}
+  if ("href" in rawMenu && "text" in rawMenu) {
+    menu = [rawMenu as MenuItem];
+  } else {
+    // если передали объект-словарь — используем его значения
+    menu = Object.values(rawMenu)
+      .filter(Boolean)
+      .map((it: any) => {
+        if (typeof it === "string") return { href: it, text: it };
+        return {
+          href: it?.href ?? "/",
+          text: it?.text ?? String(it?.href ?? ""),
+          external: !!it?.external,
+        };
+      }) as MenuItem[];
+  }
+} else {
+  // ничего не передали — оставляем пустой массив
+  menu = [];
+}
+
+// полезный лог для отладки сборки
+if (!Array.isArray(rawMenu)) {
+  // этот вывод увидишь в терминале при сборке/dev — поможет найти страницу, которая передаёт не тот тип
+  console.warn(
+    "Header: received non-array menu (normalized). Raw value:",
+    rawMenu,
+  );
+}
 ---
 
 <header class="header">

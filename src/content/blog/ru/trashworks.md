@@ -2,7 +2,7 @@
 title: "Не откликайтесь на эти вакансии!"
 date: 2025-08-28
 description: "Треш вакансии на которые не нужно откликаться."
-tag: "Работа"
+categories: ["Работа"]  
 image: "/assets/img/blog/trashwork.jpg"
 ---
 
