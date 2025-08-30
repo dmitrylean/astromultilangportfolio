@@ -1,0 +1,173 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Works from "../components/Works.astro";
+import lang from "../data/lang.json";
+
+const currentLang = "ru";
+
+const locale = currentLang;
+const t = lang[locale];
+---
+
+<Layout title="Услуги | Adam Lean">
+  <Header menu={lang[currentLang].menu} />
+
+  <main class="content">
+    <section class="services">
+      <div class="container">
+        <h2 class="services-title">Wordpress</h2>
+        <p class="service-subtitle">
+          Wordpress позволяет быстро создавать сайты используя гибридный подход
+          из кода и готовых блоков. Огромный выбор плагинов позволяет сделать
+          кастомное решение под любые задачи.
+        </p>
+        <div class="services-content">
+          <!-- левая часть с картинкой 
+        <div class="services-image">
+          <img src="service.jpg" alt="услуга" />
+        </div> -->
+
+          <!-- правая часть со списком -->
+          <div class="services-list">
+            <div class="service-item">
+              <div class="service-text">
+                <h3>Лендинг</h3>
+                <p>
+                  Однаостраничный сайт сверстанный на html/css/js и перенесенный
+                  на Wordpress
+                </p>
+              </div>
+              <div class="service-price">от 10 000 ₽</div>
+            </div>
+
+            <div class="service-item">
+              <div class="service-text">
+                <h3>Многостраничный сайт</h3>
+                <p>Веб-сайт до 5 страниц</p>
+              </div>
+              <div class="service-price">от 20 000 ₽</div>
+            </div>
+
+            <div class="service-item">
+              <div class="service-text">
+                <h3>Интернет магазин</h3>
+                <p>Веб-сайт от 5 страниц</p>
+              </div>
+              <div class="service-price">от 40 000 ₽</div>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="services-title">React, Astro, Svelte</h2>
+        <p class="service-subtitle">
+          У JS-фреймворков специфичные задачи. Как правило такие проекты требуют
+          команды разработчиков и больших ресурсов. В данном прайс-листе указаны
+          цены на лендинг. Средняя ставка в час - 1500-2000р.
+        </p>
+
+        <div class="services-list">
+          <div class="service-item">
+            <div class="service-text">
+              <h3>Astro</h3>
+              <p>
+                SSG (Static Site Generator) позволяющий за пару вчеров сделать
+                контентный проект (лендинг, блог, портфолио, документация).
+                Благодаря своей "всеядности" позволяет работать с React,
+                Tailwind, Svelte и кучей других технологий.
+              </p>
+            </div>
+            <div class="service-price">от 30 000 ₽</div>
+          </div>
+
+          <div class="service-item">
+            <div class="service-text">
+              <h3>React</h3>
+              <p>
+                React - это SPA, позволяющий осуществлять динамическую загрузку
+                контента. Используется в стартапах и крупных компаниях для
+                создания веб-сервисов.
+              </p>
+            </div>
+            <div class="service-price">от 15 000 ₽</div>
+          </div>
+
+          <!-- <div class="service-item">
+            <div class="service-text">
+              <h3>Интернет магазин</h3>
+              <p>Веб-сайт от 5 страниц</p>
+            </div>
+            <div class="service-price">10 000 ₽</div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>
+
+<style>
+  .services {
+    color: black;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .services-title {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+
+  .service-subtitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .services-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .services-image {
+    flex: 1 1 40%;
+  }
+
+  .services-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+
+  .services-list {
+    flex: 1 1 50%;
+  }
+
+  .service-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .service-text h3 {
+    font-size: 18px;
+    margin: 0;
+    text-align: left;
+  }
+
+  .service-text p {
+    font-size: 14px;
+    margin: 4px 0 0;
+    opacity: 0.8;
+    text-align: left;
+  }
+
+  .service-price {
+    font-weight: bold;
+    font-size: 18px;
+    white-space: nowrap;
+  }
+</style>

@@ -1,0 +1,12 @@
+/* Запрет выделения текста */
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Запрет перетаскивания изображений */
+img {
+    pointer-events: none;
+}

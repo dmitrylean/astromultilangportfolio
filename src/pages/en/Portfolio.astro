@@ -1,0 +1,16 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Works from "../../components/Works.astro";
+import lang from "../../data/lang.json";
+
+const currentLang = "en";
+---
+
+<Layout title="Projects | Adam Lean">
+  <Header menu={lang[currentLang].menu} />
+
+  <main class="content">
+    <Works />
+  </main>
+</Layout>

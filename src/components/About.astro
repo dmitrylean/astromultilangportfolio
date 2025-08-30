@@ -1,0 +1,34 @@
+---
+interface ContactLink {
+  href: string;
+  text: string;
+}
+
+interface Props {
+  imageSrc: string;
+  imageAlt: string;
+  title: string;
+  subtitle: string;
+  paragraphs: string[];
+  contactLink: ContactLink;
+}
+
+const { imageSrc, imageAlt, title, subtitle, paragraphs, contactLink } =
+  Astro.props as Props;
+---
+
+<section class="about" id="about">
+  <div class="about__image">
+    <img src={imageSrc} alt={imageAlt} />
+  </div>
+  <div class="about__text">
+    <h4>{title}</h4>
+    <h1>{subtitle}</h1>
+
+    {paragraphs.map((text) => <p>{text}</p>)}
+
+    <a href={contactLink.href} class="contact-btn" target="_blank">
+      {contactLink.text}
+    </a>
+  </div>
+</section>

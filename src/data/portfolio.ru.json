@@ -1,0 +1,56 @@
+[
+  {
+    "category": "astro",
+    "img": "/assets/img/portfolio/astroblog.png",
+    "title": "Astro Blog",
+    "detailsTitle": "Тема Astro",
+    "description": "Шаблон блога на Astro.",
+    "stack": "Astro",
+    "demo": "https://astro-blogdev.netlify.app"
+  },
+  {
+    "category": "astro",
+    "img": "/assets/img/portfolio/astroblogportfolio.png",
+    "title": "Astro Blog + Portfolio",
+    "detailsTitle": "Тема Astro",
+    "description": "Шаблон портфолио с функцией блога на Astro",
+    "stack": "Astro",
+    "demo": "https://astroblogportfolio.netlify.app"
+  },
+  {
+    "category": "astro",
+    "img": "/assets/img/portfolio/grid-workru.png",
+    "title": "Web Portfolio",
+    "detailsTitle": "Портфолио на Astro",
+    "description": "Это портфолио предназначено для демонстрации работ по верстке.",
+    "stack": "Astro",
+    "demo": "https://stirring-sunflower-b6391b.netlify.app/"
+  },
+  {
+    "category": "react",
+    "img": "/assets/img/portfolio/strikethehub.png",
+    "title": "Strike The Hub",
+    "detailsTitle": "React-проект геймерского портала",
+    "description": "Проект о видеоиграх, в который я планирую развивать и внедрять новые функции.",
+    "stack": "React, Tailwind",
+    "demo": "https://strikethehub.netlify.app"
+  },
+  {
+    "category": "wordpress",
+    "img": "/assets/img/portfolio/delote-beauty.png",
+    "title": "Delote Beauty",
+    "detailsTitle": "Салон красоты",
+    "description": "Тема для WordPress.",
+    "stack": "Wordpress, PHP",
+    "demo": "http://crashtheroutine.site/delote-beauty"
+  },
+  {
+    "category": "react",
+    "img": "/assets/img/portfolio/musicartistreact.png",
+    "title": "Music Artist",
+    "detailsTitle": "Шаблон для творческих профессий",
+    "description": "Шаблон на React для творческих профессий: музыканты, битмейкеры, дизайнеры, художники итп",
+    "stack": "React",
+    "demo": "https://musicprojectreact.netlify.app"
+  }
+]

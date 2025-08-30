@@ -1,0 +1,17 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import About from "../components/About.astro";
+import Skills from "../components/Skills.astro";
+import translations from "../data/lang.json";
+
+const { lang } = Astro.params;
+const currentLang = (lang || "ru") as keyof typeof translations;
+const t = translations[currentLang];
+---
+
+<Layout title={t.meta.title} author={t.meta.author}>
+  <Header menu={t.menu} />
+  <About {...t.aboutData} />
+  <Skills {...t.skillsData} />
+</Layout>

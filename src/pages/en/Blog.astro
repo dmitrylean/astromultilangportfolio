@@ -1,0 +1,77 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import langData from "../../data/lang.json";
+import { getCollection } from "astro:content";
+
+const currentLang = "en";
+
+// Получаем посты и сортируем от новых к старым
+let posts = await getCollection("blog", ({ slug }) =>
+  slug.startsWith(`${currentLang}/`),
+);
+
+posts = posts
+  .sort((b, a) => {
+    return new Date(b.data.date).getTime() - new Date(a.data.date).getTime();
+  })
+  .reverse(); // или просто меняем местами a/b в sort
+---
+
+<Layout title="Blog | Adam Lean">
+  <Header menu={langData[currentLang].menu} />
+
+  <main class="content">
+    <section class="blog">
+      <div class="container">
+        {
+          posts.length > 0 ? (
+            <div class="row g-4">
+              {posts.map((post) => {
+                const [lang, slug] = post.slug.split("/");
+                return (
+                  <div class="col-12 col-sm-6 col-lg-4">
+                    {" "}
+                    {/* <-- адаптивные колонки */}
+                    <article class="post-card">
+                      {post.data.image && (
+                        <a href={`${lang}/${slug}`}>
+                          <img
+                            src={post.data.image}
+                            alt={post.data.title}
+                            class="post-image"
+                          />
+                        </a>
+                      )}
+
+                      <div class="post-content">
+                        {post.data.tag && (
+                          <span class="post-tag">{post.data.tag}</span>
+                        )}
+                        <h2 class="post-title">
+                          <a href={`/${lang}/${slug}`}>{post.data.title}</a>
+                        </h2>
+                        {post.data.description && (
+                          <p>{post.data.description}</p>
+                        )}
+                        <div class="post-meta">
+                          <span>
+                            {post.data.date instanceof Date
+                              ? post.data.date.toLocaleDateString(lang)
+                              : post.data.date}
+                          </span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                );
+              })}
+            </div>
+          ) : (
+            <p>Empty</p>
+          )
+        }
+      </div>
+    </section>
+  </main>
+</Layout>
