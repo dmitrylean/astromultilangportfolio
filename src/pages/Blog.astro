@@ -1,25 +1,22 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
+import CategoryFilter from "../components/CategoryFilter.astro";
 import langData from "../data/lang.json";
 import { getCollection } from "astro:content";
 
-// Текущий язык. Можно сделать динамическим через Astro.params.lang
 const currentLang = "ru";
 
-// 1️⃣ Получаем все посты, которые начинаются с текущего языка
 let posts = await getCollection("blog", ({ slug }) =>
   slug.startsWith(`${currentLang}/`),
 );
 
-// 2️⃣ Сортируем посты по дате от новых к старым
 posts = posts
   .sort(
     (b, a) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime(),
   )
-  .reverse(); // или поменять местами a и b в sort
+  .reverse();
 
-// 3️⃣ Собираем все уникальные категории из постов
 const categories = [
   ...new Set(
     posts.flatMap((p) => {
@@ -32,7 +29,6 @@ const categories = [
   ),
 ];
 
-// 4️⃣ Достаём переводы для текущего языка
 const safeLang: "ru" = (Astro.params.lang ?? "ru") as "ru";
 const catDict = langData[safeLang].categories as Record<string, string>;
 ---
@@ -40,20 +36,12 @@ const catDict = langData[safeLang].categories as Record<string, string>;
 <Layout title="Блог | Adam Lean">
   <Header menu={langData[safeLang].menu} />
 
-  <section class="categories-filter">
-    <div class="container">
-      <div class="categories-list">
-        <a href={`/${currentLang}/blog`}>Все</a>
-        {
-          categories.map((cat) => (
-            <li>
-              <a href={`/${currentLang}/category/${cat}`}>{cat}</a>
-            </li>
-          ))
-        }
-      </div>
-    </div>
-  </section>
+  <!-- ✅ Теперь фильтр в отдельном компоненте -->
+  <CategoryFilter
+    categories={categories}
+    currentLang={currentLang}
+    catDict={catDict}
+  />
 
   <section class="blog">
     <div class="container">
@@ -66,7 +54,7 @@ const catDict = langData[safeLang].categories as Record<string, string>;
                 <div class="col-12 col-sm-6 col-lg-4">
                   <article class="post-card">
                     {post.data.image && (
-                      <a href={`/${lang}/${slug}`}>
+                      <a href={`/${lang}/blog/${slug}`}>
                         <img
                           src={post.data.image}
                           alt={post.data.title}

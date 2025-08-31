@@ -1,6 +1,7 @@
 ---
 import Layout from "../../../layouts/Layout.astro";
 import Header from "../../../components/Header.astro";
+import CategoryFilter from "../../../components/CategoryFilter.astro";
 import langData from "../../../data/lang.json";
 import { getCollection, type CollectionEntry } from "astro:content";
 import { extractCategories } from "../../../data/content";
@@ -14,7 +15,7 @@ interface Props {
   posts: CollectionEntry<"blog">[];
 }
 
-// getStaticPaths — возвращаем только параметры
+// 1️⃣ Генерация путей для категорий
 export const getStaticPaths: GetStaticPaths = async () => {
   const allPosts = await getCollection("blog");
 
@@ -35,22 +36,41 @@ export const getStaticPaths: GetStaticPaths = async () => {
   return paths;
 };
 
-// Runtime: получаем параметры и фильтруем посты по категории
+// 2️⃣ Получаем текущие параметры
 const params = Astro.params as { lang: Lang; category: string };
 const lang = params.lang ?? "ru";
 const category = params.category;
 
+// 3️⃣ Все посты для языка
 const allPosts = await getCollection("blog");
 const posts = allPosts.filter(
   (p) =>
     p.slug.startsWith(`${lang}/`) && extractCategories(p).includes(category),
 );
 
+// 4️⃣ Все уникальные категории для фильтра
+const categories = [
+  ...new Set(
+    allPosts
+      .filter((p) => p.slug.startsWith(`${lang}/`))
+      .flatMap(extractCategories),
+  ),
+];
+
+// 5️⃣ Словарь переводов категорий
 const catDict = (langData as any)[lang].categories as Record<string, string>;
 ---
 
 <Layout title={`${catDict[category] ?? category} | Adam Lean`}>
   <Header menu={(langData as any)[lang].menu} />
+
+  <!-- ✅ Фильтр категорий доступен прямо на странице -->
+  <CategoryFilter
+    categories={categories}
+    currentLang={lang}
+    catDict={catDict}
+  />
+
   <main class="content">
     <section class="blog">
       <div class="container">
