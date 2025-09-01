@@ -36,7 +36,6 @@ const catDict = langData[safeLang].categories as Record<string, string>;
 <Layout title="Блог | Adam Lean">
   <Header menu={langData[safeLang].menu} />
 
-  <!-- ✅ Теперь фильтр в отдельном компоненте -->
   <CategoryFilter
     categories={categories}
     currentLang={currentLang}

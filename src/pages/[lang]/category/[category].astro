@@ -15,7 +15,7 @@ interface Props {
   posts: CollectionEntry<"blog">[];
 }
 
-// 1️⃣ Генерация путей для категорий
+// 1️⃣ Generating paths for categories
 export const getStaticPaths: GetStaticPaths = async () => {
   const allPosts = await getCollection("blog");
 
@@ -36,19 +36,19 @@ export const getStaticPaths: GetStaticPaths = async () => {
   return paths;
 };
 
-// 2️⃣ Получаем текущие параметры
+// 2️⃣ We get the current parameters
 const params = Astro.params as { lang: Lang; category: string };
 const lang = params.lang ?? "ru";
 const category = params.category;
 
-// 3️⃣ Все посты для языка
+// 3️⃣ All posts for language
 const allPosts = await getCollection("blog");
 const posts = allPosts.filter(
   (p) =>
     p.slug.startsWith(`${lang}/`) && extractCategories(p).includes(category),
 );
 
-// 4️⃣ Все уникальные категории для фильтра
+// 4️⃣ All unique categories for filter
 const categories = [
   ...new Set(
     allPosts
@@ -57,14 +57,14 @@ const categories = [
   ),
 ];
 
-// 5️⃣ Словарь переводов категорий
+// 5️⃣ Dictionary of category translations
 const catDict = (langData as any)[lang].categories as Record<string, string>;
 ---
 
 <Layout title={`${catDict[category] ?? category} | Adam Lean`}>
   <Header menu={(langData as any)[lang].menu} />
 
-  <!-- ✅ Фильтр категорий доступен прямо на странице -->
+  <!-- ✅ The category filter is available directly on the page -->
   <CategoryFilter
     categories={categories}
     currentLang={lang}
