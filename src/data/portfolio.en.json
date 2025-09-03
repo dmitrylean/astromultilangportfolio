@@ -42,6 +42,6 @@
     "detailsTitle": "React version of a website for a luxury detailing service",
     "description": "Translated the design from Figma to production code. The website is built on React, using a component approach and animations for a smooth user experience.",
     "stack": "React",
-    "demo": "https://luxurycat-detailing.netlify.app/"
+    "demo": "https://luxurycar-reactlanding.netlify.app"
   }
 ]
