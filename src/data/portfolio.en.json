@@ -1,56 +1,47 @@
 [
   {
-    "category": "web",
-    "img": "../../assets/img/webgithub.png",
-    "title": "Web Portfolio",
-    "detailsTitle": "Коллекция работ по верстке",
-    "description": "Классическая верстка с использованием различных библиотек.",
-    "stack": "html css js",
-    "demo": "https://github.com/adamlean/web-portfolio"
+    "category": "astro",
+    "img": "/assets/img/portfolio/astroblog.png",
+    "title": "Astro Blog",
+    "detailsTitle": "Astro Theme",
+    "description": "Blog template on Astro.",
+    "stack": "Astro",
+    "demo": "https://astro-blogdev.netlify.app"
   },
   {
-    "category": "web",
-    "img": "https://i.postimg.cc/43Th5VXJ/work-1.png",
-    "title": "Поставщик дальнего востока",
-    "detailsTitle": "Поставщик дальнего востока",
-    "description": "Лендинг, реализованный с помощью чистой верстки. Соблюдены все правила BEM, а также присутствует адаптивность",
-    "stack": "html css",
-    "demo": "https://pdv-page.netlify.app/"
+    "category": "astro",
+    "img": "/assets/img/portfolio/astroblogportfolio.png",
+    "title": "Astro Blog + Portfolio",
+    "detailsTitle": "Astro Theme",
+    "description": "Portfolio template with blog feature on Astro",
+    "stack": "Astro",
+    "demo": "https://astroblogportfolio.netlify.app"
   },
   {
-    "category": "web",
-    "img": "../../assets/img/carsev.png",
-    "title": "Автосервис",
-    "detailsTitle": "Лендинг для автосервиса",
-    "description": "Реализован на чистом HTML / CSS. Двухязычная версия.",
-    "stack": "html css",
-    "demo": "https://carservice-landing.netlify.app"
+    "category": "react",
+    "img": "/assets/img/portfolio/strikethehub.png",
+    "title": "Strike The Hub",
+    "detailsTitle": "React project of a gaming portal",
+    "description": "A video game project that I plan to develop and implement new features into.",
+    "stack": "React, Tailwind",
+    "demo": "https://strikethehub.netlify.app"
   },
   {
-    "category": "web",
-    "img": "../../assets/img/luxdet.png",
+    "category": "react",
+    "img": "/assets/img/portfolio/musicartistreact.png",
+    "title": "Music Artist",
+    "detailsTitle": "React template for creative professions",
+    "description": "The template can be used by musicians, artists, designers, etc.",
+    "stack": "React",
+    "demo": "https://musicprojectreact.netlify.app"
+  },
+  {
+    "category": "react",
+    "img": "/assets/img/portfolio/luxurycar.png",
     "title": "Luxury Detail",
-    "detailsTitle": "Сайт по ремонту автомобилей класса люкс",
-    "description": "Двухязычный сайт, реализованный на чистом HTML и CSS.",
-    "stack": "html css",
-    "demo": "https://luxurydetail.netlify.app"
-  },
-  {
-    "category": "web",
-    "img": "../../assets/img/wbport.png",
-    "title": "Wishbone+Partners",
-    "detailsTitle": "Сайт архитектурного бюро",
-    "description": "Двухязычный сайт, реализованный на чистом HTML и CSS.",
-    "stack": "html css",
-    "demo": "https://wishboneportfolio.netlify.app"
-  },
-  {
-    "category": "web",
-    "img": "../../assets/img/wolfmedia.png",
-    "title": "WolfMedia",
-    "detailsTitle": "Сайт диджитал-агенства",
-    "description": "Сайт реализован на чистом HTML с Tailwind CSS.",
-    "stack": "HTML / Tailwind CSS",
-    "demo": "https://w0lfmedia.netlify.app"
+    "detailsTitle": "React version of a website for a luxury detailing service",
+    "description": "Translated the design from Figma to production code. The website is built on React, using a component approach and animations for a smooth user experience.",
+    "stack": "React",
+    "demo": "https://luxurycat-detailing.netlify.app/"
   }
 ]
