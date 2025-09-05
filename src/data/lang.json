@@ -1,7 +1,7 @@
 {
   "ru": {
     "meta": {
-      "title": "Главная | Crash The Routines",
+      "title": "Главная | Gates Of Pangea",
       "author": "Adam Lean"
     },
     "menu": [
@@ -45,11 +45,12 @@
       "imageSrc": "../assets/img/hero-photo.jpg",
       "imageAlt": "Portrait of Adam Lean",
       "title": "Обо мне",
-      "subtitle": "Привет, меня зовут Дмитрий. Я делаю веб-сайты, приложение и боты.",
+      "subtitle": "Привет! Я — Дмитрий, React-разработчик.",
       "paragraphs": [
-        "Основной фокус — JS и Python. PHP только для Wordpress. Tilda для быстрой разработки.",
-        "Работаю под псевдонимом Adam Lean, так как мне не нравится мое русское ФИО.",
-        "Не работаю с государственными, военными и религиозными организациями. Только потребительская сфера!"
+        "Создаю современные веб-приложения на JavaScript и React. Работаю с WordPress и использую Python для автоматизации и разработки ботов.",
+        "Работаю под псевдонимом Adam Lean — мне комфортнее использовать именно его.",
+        "Не сотрудничаю с государственными, военными и религиозными организациями. Фокусируюсь на проектах в потребительской сфере.",
+        "Gates Of Pangea — мой личный проект, посвящённый разработке, технологиям, децентрализации, эмиграции и личному опыту."
       ],
       "contactLink": {
         "href": "https://t.me/dg404_bot",
@@ -168,7 +169,7 @@
   },
   "en": {
     "meta": {
-      "title": "Home | Crash The Routines",
+      "title": "Home | Gates Of Pangea",
       "author": "Adam Lean"
     },
     "menu": [
@@ -206,11 +207,12 @@
       "imageSrc": "../assets/img/hero-photo.jpg",
       "imageAlt": "Portrait of Adam Lean",
       "title": "About me",
-      "subtitle": "Hi, my name is Dmitry. I make websites, apps and bots.",
+      "subtitle": "Hello! I'm Dmitry, a React developer.",
       "paragraphs": [
-        "Main focus — JS and Python. PHP only for Wordpress. Tilda for fast development.",
-        "I work under the pseudonym Adam Lean because I don't like my Russian full name.",
-        "I do not work with government, military or religious organizations. Only consumer sphere!"
+        "I create modern web applications with JavaScript and React. I work with WordPress and use Python for automation and bot development.",
+        "I work under the pseudonym Adam Lean - I feel more comfortable using it.",
+        "I do not cooperate with government, military or religious organizations. I focus on projects in the consumer sphere.",
+        "Gates Of Pangea is my personal project dedicated to development, technology, decentralization, emigration and personal experience."
       ],
       "contactLink": {
         "href": "https://t.me/dg404_bot",
