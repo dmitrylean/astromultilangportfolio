@@ -407,7 +407,7 @@ input, textarea {
 
 .category {
   display: inline-block;
-  background: #2563eb;
+  background: red;
   color: white;
   font-size: 12px;
   padding: 4px 8px;

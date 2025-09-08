@@ -16,7 +16,7 @@
 }
 
 .project-card {
-  background: rgb(235, 235, 235);
+  background: rgb(247, 244, 244);
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(0,0,0,0.5);
@@ -54,8 +54,8 @@
 
 .tags span {
   display: inline-block;
-  background: #ffffff;
-  color: red;
+  background: red;
+  color: white;
   font-size: 12px;
   padding: 5px 10px;
   border-radius: 6px;
