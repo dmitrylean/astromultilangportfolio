@@ -262,6 +262,10 @@ a {
   font-size: 20px;
 }
 
+.social-icons a:hover {
+  color: red;
+}
+
 .legal-links,
 .legal-links a {
   display: flex;
@@ -270,6 +274,10 @@ a {
   gap: 50px;
   text-decoration: none;
   color: black;
+}
+
+.legal-links a:hover {
+  color: red;
 }
 
 /* Bio */
@@ -414,7 +422,7 @@ input, textarea {
 }
 
 .post-title a:hover {
-  color: blue;
+  color: red;
 }
 
 .post-title a {

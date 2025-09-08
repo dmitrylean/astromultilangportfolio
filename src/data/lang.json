@@ -81,8 +81,8 @@
           "icon": "../assets/svg/React.svg"
         },
         {
-          "name": "Vue",
-          "icon": "../assets/svg/vue-vuejs-javascript-js-framework-svgrepo-com.svg"
+          "name": "Astro",
+          "icon": "../assets/svg/astro-svgrepo-com.svg"
         },
         {
           "name": "Svelte",
@@ -243,8 +243,8 @@
           "icon": "../assets/svg/React.svg"
         },
         {
-          "name": "Vue",
-          "icon": "../assets/svg/vue-vuejs-javascript-js-framework-svgrepo-com.svg"
+          "name": "Astro",
+          "icon": "../assets/svg/astro-svgrepo-com.svg"
         },
         {
           "name": "Svelte",
