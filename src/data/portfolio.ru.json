@@ -58,7 +58,7 @@
     "img": "/assets/img/portfolio/hoteldolina.jpg",
     "title": "Отель Долина",
     "detailsTitle": "Лендинг для отеля",
-    "description": "Проект сделан на html/css и может быть перенесен на wordpress. Все страницы данного проекта содержат единый фон, меняется только контейнт",
+    "description": "Проект сделан на html/css и может быть перенесен на wordpress.",
     "stack": "HTML, CSS, Wordpress",
     "demo": "https://dolinahotel.netlify.app/"
   },

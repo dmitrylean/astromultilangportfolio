@@ -1,7 +1,6 @@
 .projects {
-  background: #111;
-  color: #fff;
-  padding: 60px 20px;
+  color: black;
+  padding: 40px 20px;
 }
 
 .projects-title {
@@ -17,7 +16,7 @@
 }
 
 .project-card {
-  background: #1a1a1a;
+  background: rgb(235, 235, 235);
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(0,0,0,0.5);
@@ -45,7 +44,7 @@
 
 .project-content p {
   font-size: 14px;
-  color: #ccc;
+  color: black;
   margin-bottom: 15px;
 }
 
@@ -55,8 +54,8 @@
 
 .tags span {
   display: inline-block;
-  background: #222;
-  color: #00e5ff;
+  background: #ffffff;
+  color: red;
   font-size: 12px;
   padding: 5px 10px;
   border-radius: 6px;
@@ -69,13 +68,13 @@
 }
 
 .links a {
-  color: #aaa;
+  color: black;
   font-size: 14px;
   text-decoration: none;
 }
 
 .links a:hover {
-  color: #00e5ff;
+  color: red;
 }
 
 @media (min-width: 300px) {

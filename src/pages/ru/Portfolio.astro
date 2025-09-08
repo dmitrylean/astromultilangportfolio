@@ -2,7 +2,7 @@
 import Layout from "../../layouts/Layout.astro";
 import Header from "../../components/Header.astro";
 import Works from "../../components/Works.astro";
-// import WorksReact from "../../components/react/Works";
+import WorksSection from "../../components/react/WorksSection";
 import lang from "../../data/lang.json";
 
 const currentLang = "ru";
@@ -15,7 +15,7 @@ const t = lang[locale];
   <Header menu={lang[currentLang].menu} />
 
   <main class="content">
-    <Works />
-    <!-- <WorksReact client:visible /> -->
+    <!-- <Works /> -->
+    <WorksSection client:visible />
   </main>
 </Layout>

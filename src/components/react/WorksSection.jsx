@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./Works.css";
+import "./WorksSection.css";
 import workru from "../../data/portfolio.ru.json";
 import worken from "../../data/portfolio.en.json";
 
