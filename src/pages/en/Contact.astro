@@ -2,142 +2,17 @@
 import Layout from "../../layouts/Layout.astro";
 import Header from "../../components/Header.astro";
 import lang from "../../data/lang.json";
+import ContactSection from "../../components/react/ContactSection";
 
 const currentLang = "en";
+
+const locale = currentLang;
+const t = lang[locale];
 ---
 
-<Layout title="Contacts | Dmitry Lean">
+<Layout title="Контакт | Dmitry Lean">
   <Header menu={lang[currentLang].menu} />
-
   <main class="content">
-    <section class="contact-section">
-      <div class="container">
-        <div class="contact-grid">
-          <div class="contact-form">
-            <h2>Write to me:</h2>
-
-            <form>
-              <label>Name</label>
-              <input type="text" placeholder="Enter your name" required />
-
-              <label>Email</label>
-              <input
-                type="email"
-                placeholder="your.email@example.com"
-                required
-              />
-
-              <label>Message</label>
-              <textarea placeholder="Tell us about your project..." required
-              ></textarea>
-
-              <button type="submit" class="btn-submit"> Send message → </button>
-            </form>
-          </div>
-
-          <div class="contact-info">
-            <h2>Contact information</h2>
-
-            <div class="email">
-              <p>
-                <strong class="red-text">Primary Email:</strong> dmitrywork92@gmail.com
-              </p>
-              <p>
-                <strong class="red-text">Secondary Email:</strong> crashtheroutine@gmail.com
-              </p>
-            </div>
-
-            <div class="add">
-              <h3>Important!</h3>
-              <p>
-                I do not maintain social networks and prefer to minimize
-                publicity. Email and Telegram are available for communication.
-              </p>
-              <p>
-                All my projects are posted on GitHub and deployed on Netlify (or
-                other services). Any project can be tested live.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <ContactSection lang={currentLang} client:visible />
   </main>
 </Layout>
-
-<style>
-  .contact-section {
-    margin: 0 auto;
-    padding: 60px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-
-  .contact-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-  }
-
-  .contact-form,
-  .contact-info {
-    flex: 1 1 45%;
-    min-width: 300px;
-  }
-
-  form label {
-    display: block;
-    margin: 15px 0 5px;
-    font-weight: bold;
-  }
-
-  input,
-  textarea {
-    width: 100%;
-    padding: 12px;
-    border: none;
-    border-radius: 6px;
-    background: black;
-    color: #fff;
-    resize: none;
-  }
-
-  textarea {
-    min-height: 120px;
-    resize: none;
-  }
-
-  .btn-submit {
-    margin-top: 20px;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 25px;
-    background: #fd0008;
-    color: #fff;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-
-  .btn-submit:hover {
-    opacity: 0.8;
-    background: #ffffff;
-    color: black;
-  }
-
-  .email,
-  .add {
-    margin-top: 25px;
-    font-size: 20px;
-  }
-
-  .red-text {
-    color: red;
-  }
-
-  .add p {
-    margin-top: 15px;
-  }
-</style>
