@@ -1,17 +1,11 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import Header from "../components/Header.astro";
-import About from "../components/About.astro";
-import Skills from "../components/Skills.astro";
-import translations from "../data/lang.json";
 
-const t = translations["ru"];
 ---
 
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <title>{t.meta.title}</title>
+    <title>Redirecting…</title>
     <script is:inline>
       const savedLang = localStorage.getItem("lang");
 
@@ -22,17 +16,19 @@ const t = translations["ru"];
           window.location.replace("/en/");
         } else {
           localStorage.setItem("lang", "ru");
+          window.location.replace("/ru/");
         }
-      } else if (savedLang === "en" && !location.pathname.startsWith("/en")) {
-        window.location.replace("/en/");
+      } else {
+        if (savedLang === "en" && !location.pathname.startsWith("/en")) {
+          window.location.replace("/en/");
+        }
+        if (savedLang === "ru" && !location.pathname.startsWith("/ru")) {
+          window.location.replace("/ru/");
+        }
       }
     </script>
   </head>
   <body>
-    <Layout title={t.meta.title} author={t.meta.author}>
-      <Header menu={t.menu} />
-      <About {...t.aboutData} />
-      <Skills {...t.skillsData} />
-    </Layout>
+    <p>Redirecting…</p>
   </body>
 </html>

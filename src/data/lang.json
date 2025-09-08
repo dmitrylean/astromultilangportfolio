@@ -6,23 +6,23 @@
     },
     "menu": [
       {
-        "href": "/",
+        "href": "/ru/",
         "text": "Обо мне"
       },
       {
-        "href": "/Portfolio",
+        "href": "/ru/Portfolio",
         "text": "Проекты"
       },
       {
-        "href": "/Blog",
+        "href": "/ru/Blog",
         "text": "Блог"
       },
       {
-        "href": "/Service",
+        "href": "/ru/Service",
         "text": "Услуги"
       },
       {
-        "href": "/Contact",
+        "href": "/ru/Contact",
         "text": "Контакты"
       },
       {
@@ -139,11 +139,11 @@
       "rights": "Все права защищены.",
       "legalLinks": [
         {
-          "href": "/Terms",
+          "href": "/ru/Terms",
           "text": "Пользовательское соглашение"
         },
         {
-          "href": "/Privacy",
+          "href": "/ru/Privacy",
           "text": "Политика конфиденциальности"
         }
       ],
@@ -190,7 +190,7 @@
         "text": "Contact"
       },
       {
-        "href": "/",
+        "href": "/ru/",
         "text": "RU"
       }
     ],
@@ -311,7 +311,7 @@
       ],
       "socialLinks": [
         {
-          "href": "https://github.com/adamlean",
+          "href": "https://github.com/dmitrylean",
           "icon": "fab fa-github"
         },
         {
