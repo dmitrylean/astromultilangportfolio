@@ -1,7 +1,7 @@
 [
   {
     "category": "astro",
-    "img": "/assets/img/portfolio/astroblog.png",
+    "img": "/assets/img/portfolio/astroblog.jpg",
     "title": "Astro Blog",
     "detailsTitle": "Тема Astro",
     "description": "Шаблон блога на Astro.",
@@ -10,7 +10,7 @@
   },
   {
     "category": "astro",
-    "img": "/assets/img/portfolio/astroblogportfolio.png",
+    "img": "/assets/img/portfolio/astroblogportfolio.jpg",
     "title": "Astro Blog + Portfolio",
     "detailsTitle": "Тема Astro",
     "description": "Шаблон портфолио с функцией блога на Astro",
@@ -19,7 +19,7 @@
   },
   {
     "category": "react",
-    "img": "/assets/img/portfolio/strikethehub.png",
+    "img": "/assets/img/portfolio/strikethehub.jpg",
     "title": "Strike The Hub",
     "detailsTitle": "React-проект геймерского портала",
     "description": "Проект о видеоиграх, в который я планирую развивать и внедрять новые функции.",
@@ -28,7 +28,7 @@
   },
   {
     "category": "wordpress",
-    "img": "/assets/img/portfolio/delotesalon.png",
+    "img": "/assets/img/portfolio/delotebeauty.jpg",
     "title": "Delote Beauty",
     "detailsTitle": "Салон красоты",
     "description": "Тема для WordPress.",
@@ -37,7 +37,7 @@
   },
   {
     "category": "react",
-    "img": "/assets/img/portfolio/musicartistreact.png",
+    "img": "/assets/img/portfolio/musicartist.jpg",
     "title": "Music Artist",
     "detailsTitle": "Шаблон для творческих профессий",
     "description": "Шаблон на React для творческих профессий: музыканты, битмейкеры, дизайнеры, художники итп",
@@ -46,7 +46,7 @@
   },
   {
     "category": "wordpress",
-    "img": "/assets/img/portfolio/carservice.png",
+    "img": "/assets/img/portfolio/carservice.jpg",
     "title": "Автомастерская",
     "detailsTitle": "Лендинг для автомастерской",
     "description": "Проект сделан на html/css и может быть перенесен на wordpress",
@@ -55,7 +55,7 @@
   },
   {
     "category": "wordpress",
-    "img": "/assets/img/portfolio/dolinahotel.png",
+    "img": "/assets/img/portfolio/hoteldolina.jpg",
     "title": "Отель Долина",
     "detailsTitle": "Лендинг для отеля",
     "description": "Проект сделан на html/css и может быть перенесен на wordpress. Все страницы данного проекта содержат единый фон, меняется только контейнт",
@@ -63,17 +63,17 @@
     "demo": "https://dolinahotel.netlify.app/"
   },
   {
-    "category": "wordpress",
-    "img": "/assets/img/portfolio/luxurycar.png",
+    "category": "react",
+    "img": "/assets/img/portfolio/luxurycar.jpg",
     "title": "Luxury Detail",
     "detailsTitle": "Лендинг салона люксовых автомобилей",
     "description": "Проект сделан на html/css и может быть перенесен на wordpress.",
     "stack": "HTML, CSS, Wordpress",
-    "demo": "https://luxurycat-detailing.netlify.app/"
+    "demo": "https://luxurycar-reactlanding.netlify.app/"
   },
   {
     "category": "wordpress",
-    "img": "/assets/img/portfolio/softerio-tech.png",
+    "img": "/assets/img/portfolio/softerio-tech.jpg",
     "title": "Softerio Tech",
     "detailsTitle": "Лендинг для студии разработки",
     "description": "Проект сделан на html/css и может быть перенесен на wordpress.",
