@@ -13,65 +13,136 @@ const t = lang[locale];
   <Header menu={lang[currentLang].menu} />
 
   <main class="content">
-    <section class="contacts">
+    <section class="contact-section">
       <div class="container">
-        <form class="container mt-4">
-          <div class="row mb-3">
-            <div class="col-md-6">
-              <label for="name" class="form-label">Name</label>
-              <input
-                type="text"
-                class="form-control"
-                id="name"
-                placeholder="Your Name"
-                required
-              />
-            </div>
-            <div class="col-md-6">
-              <label for="email" class="form-label">Email</label>
+        <div class="contact-grid">
+          <div class="contact-form">
+            <h2>Написать мне:</h2>
+
+            <form>
+              <label>Имя</label>
+              <input type="text" placeholder="Напишите ваше имя" required />
+
+              <label>Email</label>
               <input
                 type="email"
-                class="form-control"
-                id="email"
-                placeholder="Your Email"
+                placeholder="your.email@example.com"
                 required
               />
+
+              <label>Сообщение</label>
+              <textarea placeholder="Напишите мне о вашем проекте" required
+              ></textarea>
+
+              <button type="submit" class="btn-submit">
+                Отправить Сообщение →
+              </button>
+            </form>
+          </div>
+
+          <div class="contact-info">
+            <h2>Контактная информация</h2>
+
+            <div class="email">
+              <p>
+                <strong class="red-text">Primary Email:</strong> dmitrywork92@gmail.com
+              </p>
+              <p>
+                <strong class="red-text">Secondary Email:</strong> crashtheroutine@gmail.com
+              </p>
+            </div>
+
+            <div class="add">
+              <h3>Внимание!</h3>
+              <p>
+                Я не веду социальные сети и предпочитаю минимизировать
+                публичность. Для связи доступны электронная почта и Telegram.
+              </p>
+              <p>
+                Все мои проекты размещены на GitHub и развернуты на Netlify (или
+                других сервисах). Любой проект можно протестировать вживую.
+              </p>
             </div>
           </div>
-
-          <div class="mb-3">
-            <label for="message" class="form-label">Message</label>
-            <textarea
-              class="form-control"
-              id="message"
-              rows="4"
-              placeholder="Enter message..."
-              required></textarea>
-          </div>
-
-          <div class="form-check mb-3">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              id="consent"
-              required
-            />
-            <label class="form-check-label" for="consent">
-              I agree with the personal data processing policy
-            </label>
-          </div>
-
-          <button type="submit" class="btn btn-danger">Submit</button>
-        </form>
+        </div>
       </div>
     </section>
-    <div class="subscribe-section">
-      <div class="container">
-        <form class="subscribe-form">
-          <input type="email" placeholder="Enter your email address" required />
-          <button type="submit">Subscribe Now</button>
-        </form>
-      </div>
-    </div>
   </main>
 </Layout>
+
+<style>
+  .contact-section {
+    margin: 0 auto;
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .contact-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .contact-form,
+  .contact-info {
+    flex: 1 1 45%;
+    min-width: 300px;
+  }
+
+  form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: black;
+    color: #fff;
+    resize: none;
+  }
+
+  textarea {
+    min-height: 120px;
+    resize: none;
+  }
+
+  .btn-submit {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    background: #fd0008;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .btn-submit:hover {
+    opacity: 0.8;
+    background: #ffffff;
+    color: black;
+  }
+
+  .email,
+  .add {
+    margin-top: 25px;
+    font-size: 20px;
+  }
+
+  .red-text {
+    color: red;
+  }
+
+  .add p {
+    margin-top: 15px;
+  }
+</style>
