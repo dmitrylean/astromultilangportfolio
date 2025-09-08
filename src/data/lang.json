@@ -1,7 +1,7 @@
 {
   "ru": {
     "meta": {
-      "title": "Главная | Crash The Routines",
+      "title": "Главная | Dmitry Lean",
       "author": "Dmitry Lean"
     },
     "menu": [
@@ -135,7 +135,7 @@
       ]
     },
     "footer": {
-      "author": "Adam Lean",
+      "author": "Dmitry Lean",
       "rights": "Все права защищены.",
       "legalLinks": [
         {
@@ -149,7 +149,7 @@
       ],
       "socialLinks": [
         {
-          "href": "https://github.com/adamlean",
+          "href": "https://github.com/dmitrylean",
           "icon": "fab fa-github"
         },
         {
@@ -169,7 +169,7 @@
   },
   "en": {
     "meta": {
-      "title": "Home | Crash The Routines",
+      "title": "Home | Dmitry Lean",
       "author": "Dmitry Lean"
     },
     "menu": [
@@ -297,7 +297,7 @@
       ]
     },
     "footer": {
-      "author": "Adam Lean",
+      "author": "Dmitry Lean",
       "rights": "All rights reserved.",
       "legalLinks": [
         {

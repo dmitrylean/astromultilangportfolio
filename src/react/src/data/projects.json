@@ -1,0 +1,88 @@
+[
+  {
+    "title": "Luxury Detailing",
+    "image": "/assets/img/luxurycar.jpg",
+    "description": "Landing page on React for a detailing salon.",
+    "tags": ["HTML", "CSS", "Wordpress", "React"],
+    "links": [
+      { "label": "💻 Code", "url": "https://github.com/adamlean/react-landing-luxurycar" },
+      { "label": "🚀 Live Demo", "url": "https://luxurycar-reactlanding.netlify.app/" }
+    ]
+  },
+  {
+    "title": "Strike The Hub",
+    "image": "/assets/img/strikethehub.jpg",
+    "description": "A fan project of a gaming portal on React, dedicated to shooter games.",
+    "tags": ["React.js", "Tailwind CSS"],
+    "links": [
+      { "label": "💻 Code", "url": "https://github.com/adamlean/strikethehub" },
+      { "label": "🚀 Live Demo", "url": "https://strikethehub.netlify.app" }
+    ]
+  },
+  {
+    "title": "Astro Blog",
+    "image": "/assets/img/astroblog.jpg",
+    "description": "Astro blog template with categories/headings.",
+    "tags": ["Astro"],
+    "links": [
+      { "label": "💻 Code", "url": "https://github.com/adamlean/strikethehub" },
+      { "label": "🚀 Live Demo", "url": "https://astro-blogdev.netlify.app/" }
+    ]
+  },
+  {
+    "title": "Astro Blog Portfolio",
+    "image": "/assets/img/astroblogportfolio.jpg",
+    "description": "Astro blog with portfolio feature.",
+    "tags": ["Astro"],
+    "links": [
+      { "label": "💻 Code", "url": "https://github.com/adamlean/astroblogportfolio" },
+      { "label": "🚀 Live Demo", "url": "https://astroblogportfolio.netlify.app/" }
+    ]
+  },
+  {
+    "title": "Music Artist",
+    "image": "/assets/img/musicartist.jpg",
+    "description": "A template project for creative professions in React.",
+    "tags": ["React"],
+    "links": [
+      { "label": "💻 Code", "url": "https://github.com/adamlean/musicartist-reactapp" },
+      { "label": "🚀 Live Demo", "url": "https://musicprojectreact.netlify.app/" }
+    ]
+  },
+   {
+    "title": "Delote Beauty",
+    "image": "/assets/img/delotebeauty.jpg",
+    "description": "Beauty salon website on React. Most of the functionality is implemented using plugins",
+    "tags": ["Wordpress"],
+    "links": [
+      { "label": "💻 Code", "url": "https://github.com/adamlean/delote-wp" }
+    ]
+  },
+    {
+    "title": "Автомастерская",
+    "image": "/assets/img/carservice.jpg",
+    "description": "Auto repair shop website written in pure HTML/CSS/JS. Can be migrated to Wordpress.",
+    "tags": ["HTML", "CSS", "Wordpress", "CMS"],
+    "links": [
+      { "label": "🚀 Demo", "url": "https://carservice-web.netlify.app/" }
+    ]
+  },
+  {
+    "title": "Отель Долина",
+    "image": "/assets/img/hoteldolina.jpg",
+    "description": "Hotel website written in pure HTML/CSS/JS. Can be migrated to Wordpress.",
+    "tags": ["HTML", "CSS", "Wordpress", "CMS"],
+    "links": [
+      { "label": "🚀 Live Demo", "url": "https://dolinahotel.netlify.app/" }
+    ]
+  },
+   {
+    "title": "Softerio Tech",
+    "image": "/assets/img/softerio-tech.jpg",
+    "description": "Website of design and development studio, written in pure HTML/CSS/JS. Can be transferred to Wordpress.",
+    "tags": ["HTML", "CSS", "Wordpress", "CMS"],
+    "links": [
+      { "label": "🚀 Live Demo", "url": "https://softerio-tech.netlify.app/" }
+    ]
+  }
+]
