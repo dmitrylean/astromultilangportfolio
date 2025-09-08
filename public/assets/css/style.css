@@ -196,8 +196,8 @@ a {
 }
 
 .contact-btn {
-  background-color: #e4e4e4;
-  color: black;
+  background-color: red;
+  color: white;
   border: none;
   padding: 14px 28px;
   font-size: 14px;
@@ -208,7 +208,8 @@ a {
 }
 
 .contact-btn:hover {
-  background-color: #c5c5c5;
+  background: white;
+  color: black;
 }
 
 /* Subscribe */
