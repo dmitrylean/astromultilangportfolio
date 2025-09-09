@@ -210,6 +210,7 @@ a {
 .contact-btn:hover {
   background: white;
   color: black;
+  border: 2px solid black;
 }
 
 /* Subscribe */
