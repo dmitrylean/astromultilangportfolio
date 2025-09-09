@@ -212,7 +212,7 @@ a {
   color: black;
   border: 2px solid black;
 }
-
+/*
 .contact-btn::before {
   content: "";
   position: absolute;
@@ -227,7 +227,7 @@ a {
   clip-path: inset(0 0 0 0);
   transform: scale(1);
 }
-
+*/
 /* Subscribe */
 
 .subscribe-section {
