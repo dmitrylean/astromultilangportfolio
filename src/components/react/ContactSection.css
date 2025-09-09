@@ -65,7 +65,7 @@ textarea {
   border: 2px solid white;
   border-radius: 4px;
   clip-path: inset(0 100% 0 0);
-  transition: transform 1s ease; 
+  transition: transform 0.3s ease; 
 }
 
 .btn-submit:hover::before {
