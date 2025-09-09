@@ -58,6 +58,21 @@ textarea {
   border: 2px solid black;
 }
 
+.btn-submit::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 2px solid white;
+  border-radius: 4px;
+  clip-path: inset(0 100% 0 0);
+  transition: transform 1s ease; 
+}
+
+.btn-submit:hover::before {
+  clip-path: inset(0 0 0 0);
+  transform: scale(1);
+}
+
 .email,
 .add {
   margin-top: 25px;
