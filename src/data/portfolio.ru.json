@@ -6,7 +6,8 @@
     "detailsTitle": "Тема Astro",
     "description": "Шаблон блога на Astro.",
     "stack": "Astro",
-    "demo": "https://astro-blogdev.netlify.app"
+    "demo": "https://astro-blogdev.netlify.app",
+    "github": "https://github.com/dmitrylean/astro-blog"
   },
   {
     "category": "astro",
@@ -15,7 +16,8 @@
     "detailsTitle": "Тема Astro",
     "description": "Шаблон портфолио с функцией блога на Astro",
     "stack": "Astro",
-    "demo": "https://astroblogportfolio.netlify.app"
+    "demo": "https://astroblogportfolio.netlify.app",
+    "github": "https://github.com/dmitrylean/astroblogportfolio"
   },
   {
     "category": "react",
@@ -24,7 +26,8 @@
     "detailsTitle": "React-проект геймерского портала",
     "description": "Проект о видеоиграх, в который я планирую развивать и внедрять новые функции.",
     "stack": "React, Tailwind",
-    "demo": "https://strikethehub.netlify.app"
+    "demo": "https://strikethehub.netlify.app",
+    "github": "https://github.com/dmitrylean/strikethehub"
   },
   {
     "category": "wordpress",
@@ -42,7 +45,8 @@
     "detailsTitle": "Шаблон для творческих профессий",
     "description": "Шаблон на React для творческих профессий: музыканты, битмейкеры, дизайнеры, художники итп",
     "stack": "React",
-    "demo": "https://musicprojectreact.netlify.app"
+    "demo": "https://musicprojectreact.netlify.app",
+    "github": "https://github.com/dmitrylean/musicartist-reactapp"
   },
   {
     "category": "wordpress",
@@ -69,7 +73,8 @@
     "detailsTitle": "Лендинг салона люксовых автомобилей",
     "description": "Проект сделан на html/css и может быть перенесен на wordpress.",
     "stack": "HTML, CSS, Wordpress",
-    "demo": "https://luxurycar-reactlanding.netlify.app/"
+    "demo": "https://luxurycar-reactlanding.netlify.app/",
+    "github": "https://github.com/dmitrylean/react-landing-luxurycar"
   },
   {
     "category": "wordpress",

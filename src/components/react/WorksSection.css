@@ -21,6 +21,7 @@
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(0,0,0,0.5);
   transition: transform 0.3s ease;
+  min-height: 380px;
 }
 
 .project-card:hover {
@@ -69,12 +70,18 @@
 
 .links a {
   color: black;
-  font-size: 14px;
+  font-size: 25px;
   text-decoration: none;
 }
 
 .links a:hover {
   color: red;
+}
+
+.project-meta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 @media (min-width: 300px) {

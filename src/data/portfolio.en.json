@@ -6,7 +6,8 @@
     "detailsTitle": "Astro Theme",
     "description": "Blog template on Astro.",
     "stack": "Astro",
-    "demo": "https://astro-blogdev.netlify.app"
+    "demo": "https://astro-blogdev.netlify.app",
+    "github": "https://github.com/dmitrylean/astro-blog"
   },
   {
     "category": "astro",
@@ -15,7 +16,8 @@
     "detailsTitle": "Astro Theme",
     "description": "Portfolio template with blog feature on Astro",
     "stack": "Astro",
-    "demo": "https://astroblogportfolio.netlify.app"
+    "demo": "https://astroblogportfolio.netlify.app",
+    "github": "https://github.com/dmitrylean/astroblogportfolio"
   },
   {
     "category": "react",
@@ -24,7 +26,8 @@
     "detailsTitle": "React project of a gaming portal",
     "description": "A video game project that I plan to develop and implement new features into.",
     "stack": "React, Tailwind",
-    "demo": "https://strikethehub.netlify.app"
+    "demo": "https://strikethehub.netlify.app",
+    "github": "https://github.com/dmitrylean/strikethehub"
   },
   {
     "category": "react",
@@ -33,7 +36,8 @@
     "detailsTitle": "React template for creative professions",
     "description": "The template can be used by musicians, artists, designers, etc.",
     "stack": "React",
-    "demo": "https://musicprojectreact.netlify.app"
+    "demo": "https://musicprojectreact.netlify.app",
+    "github": "https://github.com/dmitrylean/musicartist-reactapp"
   },
   {
     "category": "react",
@@ -42,6 +46,7 @@
     "detailsTitle": "React version of a website for a luxury detailing service",
     "description": "Translated the design from Figma to production code. The website is built on React, using a component approach and animations for a smooth user experience.",
     "stack": "React",
-    "demo": "https://luxurycar-reactlanding.netlify.app"
+    "demo": "https://luxurycar-reactlanding.netlify.app",
+    "github": "https://github.com/dmitrylean/react-landing-luxurycar"
   }
 ]
