@@ -75,12 +75,8 @@ const ContactSection = ({ lang = "en" }) => {
 
             <div className="email">
               <p>
-                <strong className="red-text">Primary Email:</strong>{" "}
-                dmitrywork92@gmail.com
-              </p>
-              <p>
-                <strong className="red-text">Secondary Email:</strong>{" "}
-                crashtheroutine@gmail.com
+                <strong className="red-text">Email:</strong>{" "}
+                crashtheroutines@gmail.com
               </p>
             </div>
 
