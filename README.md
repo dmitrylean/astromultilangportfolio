@@ -1,30 +1,46 @@
-# About Me
+# Astro Starter Kit: Basics
 
-Hi, I'm Adam Lean — a software developer and musician working internationally.  
-Originally from Russia. Real name — Dmitry.
+```sh
+npm create astro@latest -- --template basics
+```
 
-I choose to work under a alter-ego for personal and professional reasons.
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-My work is guided by ethical principles:  
-I do not collaborate with government, military, or religious institutions.  
-I support human rights, freedom of speech, and responsible software practices.
+## 🚀 Project Structure
 
-I also advocate for a decentralized internet, open standards, and privacy-focused technologies — including cryptocurrencies and Web3 ecosystems.
+Inside of your Astro project, you'll see the following folders and files:
 
-## Tools
+```text
+/
+├── public/
+│   └── favicon.svg
+├── src
+│   ├── assets
+│   │   └── astro.svg
+│   ├── components
+│   │   └── Welcome.astro
+│   ├── layouts
+│   │   └── Layout.astro
+│   └── pages
+│       └── index.astro
+└── package.json
+```
 
-### Development
+To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
 
-<img src="./public/assets/svg/html5.svg" width="65" height="65"> <img src="./public/assets/svg/css3.svg" width="65" height="65"> <img src="./public/assets/svg/JS.svg" width="65" height="65"> <img src="./public/assets/svg/typescript-logo-svgrepo-com.svg" width="65" height="65"> <img src="./public/assets/svg/React.svg" width="65" height="65"> <img src="./public/assets/svg/python.svg" width="65" height="65"> <img src="./public/assets/svg/php.svg" width="65" height="65"> <img src="./public/assets/svg/chatgpt.svg" width="65" height="65" color="green">
-<img src="./public/assets/svg/visual-studio-code-logo-svgrepo-com.svg" width="65" height="65"> <img src="./public/assets/svg/sublime-text-svgrepo-com.svg" width="65" height="65"> <img src="./public/assets/svg/git-icon-logo-svgrepo-com.svg" width="65" height="65"> <img src="./public/assets/svg/wordpress.svg" width="65" height="65">
+## 🧞 Commands
 
-### Music & Media
+All commands are run from the root of the project, from a terminal:
 
-<img src="./public/assets/svg/reaper.svg" width="65" height="65"> <img src="./public/assets/svg/flstudio.svg" width="65" height="65"> <img src="./public/assets/svg/figma-svgrepo-com.svg" width="65" height="65"> <img src="./public/assets/svg/adobe-illustrator-svgrepo-com.svg" width="65" height="65">
-<img src="./public/assets/svg/adobe-photoshop-svgrepo-com.svg" width="65" height="65"> <img src="./public/assets/svg/adobe-premiere-svgrepo-com.svg" width="65" height="65"> <img src="./public/assets/svg/davinci.svg" width="65" height="65">
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## Links
+## 👀 Want to learn more?
 
-- [Website](https://adamlean.netlify.app/)
-- [Behance](https://www.behance.net/adamlean92)
-- [My Music](https://soundcloud.com/mastamonk36)
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
