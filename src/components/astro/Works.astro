@@ -2,7 +2,6 @@
 import workru from "../../data/portfolio.ru.json";
 import worken from "../../data/portfolio.en.json";
 
-// Определяем язык по URL
 const lang = Astro.url.pathname.startsWith("/en") ? "en" : "ru";
 const works = lang === "ru" ? workru : worken;
 ---
@@ -21,7 +20,6 @@ const works = lang === "ru" ? workru : worken;
 
   <div class="work-container container">
     <div class="row g-custom">
-      {/* Bootstrap row + отступы */}
       {
         works.map((work) => (
           <div
@@ -76,7 +74,6 @@ const works = lang === "ru" ? workru : worken;
   </div>
 </div>
 
-<!-- Скрипты -->
 <script
   src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"
 ></script>
@@ -86,7 +83,6 @@ const works = lang === "ru" ? workru : worken;
     const filtersBar = document.querySelector(".work-filters");
     const popup = document.querySelector(".portfolio-popup");
 
-    // MixItUp
     let mixer = null;
     if (typeof window.mixitup === "function") {
       mixer = window.mixitup(portfolioContainer, {
@@ -95,7 +91,6 @@ const works = lang === "ru" ? workru : worken;
       });
     }
 
-    // Фильтры
     if (filtersBar) {
       filtersBar.addEventListener("click", (e) => {
         const btn = e.target.closest(".work-item");
@@ -108,20 +103,19 @@ const works = lang === "ru" ? workru : worken;
       });
     }
 
-    // Popup
     if (popup) {
       const popupClose = popup.querySelector(".portfolio-popup-close");
       const popupImg = popup.querySelector(".portfolio-popup-img");
       const popupSubtitle = popup.querySelector(
-        ".portfolio-popup-subtitle span",
+        ".portfolio-popup-subtitle span"
       );
       const popupTitle = popup.querySelector(".details-title");
       const popupDesc = popup.querySelector(".details-description");
       const popupStack = popup.querySelector(
-        ".details-info li:nth-child(1) span",
+        ".details-info li:nth-child(1) span"
       );
       const popupDemoLink = popup.querySelector(
-        ".details-info li:nth-child(2) span a",
+        ".details-info li:nth-child(2) span a"
       );
 
       portfolioContainer.addEventListener("click", (e) => {
@@ -142,7 +136,7 @@ const works = lang === "ru" ? workru : worken;
       });
 
       popupClose.addEventListener("click", () =>
-        popup.classList.remove("open"),
+        popup.classList.remove("open")
       );
       popup.addEventListener("click", (e) => {
         if (e.target === popup) popup.classList.remove("open");

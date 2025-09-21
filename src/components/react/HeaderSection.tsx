@@ -7,7 +7,7 @@ interface MenuItem {
 }
 
 interface HeaderProps {
-  menu?: any; // исходный проп, может быть массивом, объектом или undefined
+  menu?: any; 
 }
 
 export const Header: React.FC<HeaderProps> = ({ menu: rawMenu }) => {
