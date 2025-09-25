@@ -20,12 +20,12 @@
     "github": "https://github.com/dmitrylean/musicartist-reactapp"
   },
   {
-    "category": "react",
+    "category": "wordpress",
     "img": "/assets/img/portfolio/html-projects.jpg",
     "title": "HTML Projects",
     "detailsTitle": "Портфолио HTML",
     "description": "Портфолио, содержащее проекты по верстке HTML/CSS/JS. Можно перенести на Wordpress.",
-    "stack": "React",
+    "stack": "Wordpress",
     "demo": "https://html-projects-template.netlify.app",
     "github": "https://github.com/dmitrylean/html-projects"
   },

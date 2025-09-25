@@ -15,13 +15,13 @@
 section {
   width: 100%;
   box-sizing: border-box;
-} 
+}
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 20px;
-} 
+}
 
 ul {
   list-style: none;
@@ -78,7 +78,6 @@ a {
   text-decoration: underline;
 }
 
-/* Мобильный */
 @media (max-width: 768px) {
   .header {
     padding: 16px 24px;
@@ -315,7 +314,7 @@ a {
 
 .label {
   font-weight: bold;
-  width: 140px; /* можно подогнать */
+  width: 140px;
 }
 
 .value {
@@ -324,7 +323,8 @@ a {
 
 /* Form */
 
-input, textarea {
+input,
+textarea {
   background-color: #fcf9f2;
   color: #333;
   border: 1px solid #ccc;
@@ -409,7 +409,7 @@ input, textarea {
   border-radius: 10px;
   overflow: hidden;
   background: var(--box-color);
-  box-shadow: 0 4px 15px rgba(0,0,0,0.5)
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
 .post-image {
@@ -458,7 +458,7 @@ input, textarea {
 /* Portfolio */
 
 .row.g-custom {
-  --bs-gutter-x: 20px; 
+  --bs-gutter-x: 20px;
   --bs-gutter-y: 20px;
   gap: 10px;
   align-items: center;
@@ -467,12 +467,11 @@ input, textarea {
 
 /* Post */
 
-/* Общий контейнер */
 .content {
   display: flex;
   justify-content: center;
   padding: 2rem 1rem;
-  color: #000000; /* белый текст */
+  color: #000000;
 }
 
 .article-container {
@@ -480,7 +479,6 @@ input, textarea {
   width: 100%;
 }
 
-/* Заголовок статьи */
 .article-title h1 {
   font-size: 2.5rem;
   font-weight: 700;
@@ -489,7 +487,6 @@ input, textarea {
   text-align: center;
 }
 
-/* Дата */
 .article-disc p {
   font-size: 1rem;
   color: #aaa;
@@ -497,7 +494,6 @@ input, textarea {
   text-align: center;
 }
 
-/* Подзаголовки внутри контента */
 .article-container h2 {
   font-size: 1.75rem;
   font-weight: 600;
@@ -505,15 +501,13 @@ input, textarea {
   text-align: center;
 }
 
-/* Абзацы */
 .article-container p {
   font-size: 1.125rem;
   line-height: 1.7;
   margin-bottom: 1.25rem;
-  text-align: justify; /* выравнивание по ширине */
+  text-align: justify;
 }
 
-/* Ссылки */
 .article-container a {
   color: #4da6ff;
   text-decoration: underline;
@@ -565,4 +559,76 @@ input, textarea {
 
 .categories-list a:hover {
   color: red;
+}
+
+/* === Responsive === */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .categories-list a {
+    font-size: 1.2rem;
+    gap: 15px;
+  }
+}
+
+/* Smartphones */
+@media (max-width: 768px) {
+  .categories-list {
+    flex-direction: column; /* stack items */
+    gap: 10px;
+  }
+
+  .categories-list a {
+    font-size: 1rem;
+    gap: 10px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .categories-list a {
+    font-size: 0.9rem;
+    gap: 8px;
+  }
+
+  .categories-filter {
+    margin: 0.5rem 0 1rem;
+  }
+}
+
+/* Tablets (≤ 1024px) */
+@media (max-width: 1024px) {
+  .work-item {
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+/* Smartphones (≤ 768px) */
+@media (max-width: 768px) {
+  .work-filters {
+    flex-direction: column; /* stack items vertically */
+    gap: 0.8rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .work-item {
+    width: 80%; /* buttons stretched */
+    font-size: 0.9rem;
+  }
+}
+
+/* Small phones (≤ 480px) */
+@media (max-width: 480px) {
+  .work-item {
+    width: 100%; /* full width */
+    font-size: 0.85rem;
+    padding: 0.5rem;
+  }
+
+  .work-filters {
+    gap: 0.6rem;
+    margin: 1rem 0;
+  }
 }
