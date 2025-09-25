@@ -19,7 +19,7 @@
     "demo": "https://musicprojectreact.netlify.app",
     "github": "https://github.com/dmitrylean/musicartist-reactapp"
   },
-   {
+  {
     "category": "react",
     "img": "/assets/img/portfolio/html-projects.jpg",
     "title": "HTML Projects",
@@ -28,5 +28,15 @@
     "stack": "React",
     "demo": "https://html-projects-template.netlify.app",
     "github": "https://github.com/dmitrylean/html-projects"
+  },
+  {
+    "category": "react",
+    "img": "/assets/img/portfolio/react=portfolios.jpg",
+    "title": "React Portfolio",
+    "detailsTitle": "React Portfolio",
+    "description": "Мое англоязычное портфолио на React.",
+    "stack": "React",
+    "demo": "https://dmitrylean.netlify.app",
+    "github": "https://github.com/dmitrylean/react-portfolio"
   }
 ]
