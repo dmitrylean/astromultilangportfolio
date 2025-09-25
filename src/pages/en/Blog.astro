@@ -8,12 +8,12 @@ import { getCollection } from "astro:content";
 const currentLang = "en";
 
 let posts = await getCollection("blog", ({ slug }) =>
-  slug.startsWith(`${currentLang}/`),
+  slug.startsWith(`${currentLang}/`)
 );
 
 posts = posts
   .sort(
-    (b, a) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime(),
+    (b, a) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
   )
   .reverse();
 
@@ -25,7 +25,7 @@ const categories = [
       if (Array.isArray(c)) return c;
       if (typeof c === "string") return [c];
       return [];
-    }),
+    })
   ),
 ];
 
@@ -33,7 +33,7 @@ const safeLang: "en" = (Astro.params.lang ?? "en") as "en";
 const catDict = langData[safeLang].categories as Record<string, string>;
 ---
 
-<Layout title="Blog | Dmitry Lean">
+<Layout title="Blog | Dmitry B">
   <Header menu={langData[safeLang].menu} />
 
   <CategoryFilter

@@ -12,21 +12,6 @@ const t = translations["ru"];
   <head>
     <meta charset="UTF-8" />
     <title>{t.meta.title}</title>
-    <script is:inline>
-      const savedLang = localStorage.getItem("lang");
-
-      if (!savedLang) {
-        const browserLang = navigator.language.split("-")[0];
-        if (browserLang === "en") {
-          localStorage.setItem("lang", "en");
-          window.location.replace("/en/");
-        } else {
-          localStorage.setItem("lang", "ru");
-        }
-      } else if (savedLang === "en" && !location.pathname.startsWith("/en")) {
-        window.location.replace("/en/");
-      }
-    </script>
   </head>
   <body>
     <Layout title={t.meta.title} author={t.meta.author}>
