@@ -1,16 +1,6 @@
 [
   {
     "category": "astro",
-    "img": "/assets/img/portfolio/astroblog.jpg",
-    "title": "Astro Blog",
-    "detailsTitle": "Тема Astro",
-    "description": "Шаблон блога на Astro.",
-    "stack": "Astro",
-    "demo": "https://astro-blogdev.netlify.app",
-    "github": "https://github.com/dmitrylean/astro-blog"
-  },
-  {
-    "category": "astro",
     "img": "/assets/img/portfolio/astroblogportfolio.jpg",
     "title": "Astro Blog + Portfolio",
     "detailsTitle": "Тема Astro",
@@ -21,68 +11,22 @@
   },
   {
     "category": "react",
-    "img": "/assets/img/portfolio/strikethehub.jpg",
-    "title": "Strike The Hub",
-    "detailsTitle": "React-проект геймерского портала",
-    "description": "Проект о видеоиграх, в который я планирую развивать и внедрять новые функции.",
-    "stack": "React, Tailwind",
-    "demo": "https://strikethehub.netlify.app",
-    "github": "https://github.com/dmitrylean/strikethehub"
-  },
-  {
-    "category": "wordpress",
-    "img": "/assets/img/portfolio/delotebeauty.jpg",
-    "title": "Delote Beauty",
-    "detailsTitle": "Салон красоты",
-    "description": "Тема для WordPress.",
-    "stack": "Wordpress, PHP",
-    "demo": "http://crashtheroutine.site/delote-beauty"
-  },
-  {
-    "category": "react",
     "img": "/assets/img/portfolio/musicartist.jpg",
-    "title": "Music Artist",
+    "title": "Creative Artist Template",
     "detailsTitle": "Шаблон для творческих профессий",
     "description": "Шаблон на React для творческих профессий: музыканты, битмейкеры, дизайнеры, художники итп",
     "stack": "React",
     "demo": "https://musicprojectreact.netlify.app",
     "github": "https://github.com/dmitrylean/musicartist-reactapp"
   },
-  {
-    "category": "wordpress",
-    "img": "/assets/img/portfolio/carservice.jpg",
-    "title": "Автомастерская",
-    "detailsTitle": "Лендинг для автомастерской",
-    "description": "Проект сделан на html/css и может быть перенесен на wordpress",
-    "stack": "HTML, CSS, Wordpress",
-    "demo": "https://carservice-web.netlify.app/"
-  },
-  {
-    "category": "wordpress",
-    "img": "/assets/img/portfolio/hoteldolina.jpg",
-    "title": "Отель Долина",
-    "detailsTitle": "Лендинг для отеля",
-    "description": "Проект сделан на html/css и может быть перенесен на wordpress.",
-    "stack": "HTML, CSS, Wordpress",
-    "demo": "https://dolinahotel.netlify.app/"
-  },
-  {
+   {
     "category": "react",
-    "img": "/assets/img/portfolio/luxurycar.jpg",
-    "title": "Luxury Detail",
-    "detailsTitle": "Лендинг салона люксовых автомобилей",
-    "description": "Проект сделан на html/css и может быть перенесен на wordpress.",
-    "stack": "HTML, CSS, Wordpress",
-    "demo": "https://luxurycar-reactlanding.netlify.app/",
-    "github": "https://github.com/dmitrylean/react-landing-luxurycar"
-  },
-  {
-    "category": "wordpress",
-    "img": "/assets/img/portfolio/softerio-tech.jpg",
-    "title": "Softerio Tech",
-    "detailsTitle": "Лендинг для студии разработки",
-    "description": "Проект сделан на html/css и может быть перенесен на wordpress.",
-    "stack": "HTML, CSS, Wordpress",
-    "demo": "https://softerio-tech.netlify.app/"
+    "img": "/assets/img/portfolio/html-projects.jpg",
+    "title": "HTML Projects",
+    "detailsTitle": "Портфолио HTML",
+    "description": "Портфолио, содержащее проекты по верстке HTML/CSS/JS. Можно перенести на Wordpress.",
+    "stack": "React",
+    "demo": "https://html-projects-template.netlify.app",
+    "github": "https://github.com/dmitrylean/html-projects"
   }
 ]
