@@ -12,7 +12,27 @@ const currentLang = "en";
   <Header menu={lang[currentLang].menu} />
 
   <main class="content">
-    <!-- <Works /> -->
-    <WorksSection client:visible />
+    <div class="conteiner">
+      <h2>Var. 1</h2>
+      <Works />
+      <h2>Var. 2</h2>
+      <WorksSection client:visible />
+    </div>
   </main>
 </Layout>
+
+<style>
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-style: bold;
+    font-weight: 700;
+
+    text-align: center;
+    justify-content: center;
+  }
+</style>
