@@ -16,7 +16,7 @@
   },
   {
     "category": "react",
-    "img": "/assets/img/portfolio/musicartist.jpg",
+    "img": "/assets/img/portfolio/creativeartist.jpg",
     "title": "Creative Artist Template",
     "detailsTitle": "Шаблон для творческих профессий",
     "description": "Шаблон на React для творческих профессий: музыканты, битмейкеры, дизайнеры, художники итп",
@@ -60,5 +60,145 @@
       "/assets/svg/css3.svg",
       "/assets/svg/JS.svg"
     ]
+  },
+  {
+    "category": "wordpress",
+    "img": "/assets/img/portfolio/blitzestate.jpg",
+    "title": "Blitz State",
+    "detailsTitle": "Blitz State",
+    "description": "Лендинг агенства недвижимости.",
+    "stack": "Wordpress",
+    "demo": "https://html-projects-template.netlify.app/apps/blitzestate/",
+    "icons": [
+      "/assets/svg/wordpress.svg",
+      "/assets/svg/html5.svg",
+      "/assets/svg/css3.svg",
+      "/assets/svg/JS.svg"
+    ]
+  },
+  {
+    "category": "wordpress",
+    "img": "/assets/img/portfolio/carservice.jpg",
+    "title": "Автомастерская",
+    "detailsTitle": "Автомастерская",
+    "description": "Лендинг автомастерской",
+    "stack": "Wordpress",
+    "demo": "https://html-projects-template.netlify.app/apps/carservice/",
+    "icons": [
+      "/assets/svg/wordpress.svg",
+      "/assets/svg/html5.svg",
+      "/assets/svg/css3.svg",
+      "/assets/svg/JS.svg"
+    ]
+  },
+  {
+    "category": "wordpress",
+    "img": "/assets/img/portfolio/hoteldolina.jpg",
+    "title": "Отель Долина",
+    "detailsTitle": "Отель Долина",
+    "description": "Лендинг отеля",
+    "stack": "Wordpress",
+    "demo": "https://html-projects-template.netlify.app/apps/dolinahotel/",
+    "icons": [
+      "/assets/svg/wordpress.svg",
+      "/assets/svg/html5.svg",
+      "/assets/svg/css3.svg",
+      "/assets/svg/JS.svg"
+    ]
+  },
+  {
+    "category": "wordpress",
+    "img": "/assets/img/portfolio/softerio-tech.jpg",
+    "title": "Softerio Technology",
+    "detailsTitle": "Softerio Technology",
+    "description": "Лендинг студии разработки",
+    "stack": "Wordpress",
+    "demo": "https://html-projects-template.netlify.app/apps/softeriotech/",
+    "icons": [
+      "/assets/svg/wordpress.svg",
+      "/assets/svg/html5.svg",
+      "/assets/svg/css3.svg",
+      "/assets/svg/JS.svg"
+    ]
+  },
+  {
+    "category": "wordpress",
+    "img": "/assets/img/portfolio/strikethehub.jpg",
+    "title": "Game Platform",
+    "detailsTitle": "Game Platform",
+    "description": "Многостраничный сайт игрового портала",
+    "stack": "Wordpress",
+    "demo": "https://html-projects-template.netlify.app/apps/gameplatform/",
+    "icons": ["/assets/svg/html5.svg", "/assets/svg/tailwind.svg"]
+  },
+  {
+    "category": "wordpress",
+    "img": "/assets/img/portfolio/sportcarrent.jpg",
+    "title": "ReadyOn",
+    "detailsTitle": "ReadyOn",
+    "description": "Лендинг по аренде спорткаров",
+    "stack": "Wordpress",
+    "demo": "https://html-projects-template.netlify.app/apps/sportcarrent/",
+    "icons": [
+      "/assets/svg/wordpress.svg",
+      "/assets/svg/html5.svg",
+      "/assets/svg/css3.svg",
+      "/assets/svg/JS.svg"
+    ]
+  },
+  {
+    "category": "wordpress",
+    "img": "/assets/img/portfolio/luxurycar.jpg",
+    "title": "Luxury Car",
+    "detailsTitle": "Luxury Car",
+    "description": "Лендинг детайлинг автомобилей",
+    "stack": "Wordpress",
+    "demo": "https://html-projects-template.netlify.app/apps/luxurycar/",
+    "icons": [
+      "/assets/svg/wordpress.svg",
+      "/assets/svg/html5.svg",
+      "/assets/svg/css3.svg",
+      "/assets/svg/JS.svg"
+    ]
+  },
+  {
+    "category": "wordpress",
+    "img": "/assets/img/portfolio/pdvpage.jpg",
+    "title": "Поставщик Дальнего Востока",
+    "detailsTitle": "Поставщик Дальнего Востока",
+    "description": "Лендинг логистической компании",
+    "stack": "Wordpress",
+    "demo": "https://html-projects-template.netlify.app/apps/pdv-landing/",
+    "icons": [
+      "/assets/svg/wordpress.svg",
+      "/assets/svg/html5.svg",
+      "/assets/svg/css3.svg",
+      "/assets/svg/JS.svg"
+    ]
+  },
+  {
+    "category": "wordpress",
+    "img": "/assets/img/portfolio/wishbonelanding.jpg",
+    "title": "Wishbone+Partners",
+    "detailsTitle": "Wishbone+Partners",
+    "description": "Лендинг архитектурной компании",
+    "stack": "Wordpress",
+    "demo": "https://html-projects-template.netlify.app/apps/wishbone/",
+    "icons": [
+      "/assets/svg/wordpress.svg",
+      "/assets/svg/html5.svg",
+      "/assets/svg/css3.svg",
+      "/assets/svg/JS.svg"
+    ]
+  },
+  {
+    "category": "wordpress",
+    "img": "/assets/img/portfolio/wolfmedia.jpg",
+    "title": "WolfMedia",
+    "detailsTitle": "WolfMedia",
+    "description": "Лендинг рекламного агентства",
+    "stack": "Wordpress",
+    "demo": "https://html-projects-template.netlify.app/apps/wolfmedia/",
+    "icons": ["/assets/svg/html5.svg", "/assets/svg/tailwind.svg"]
   }
 ]

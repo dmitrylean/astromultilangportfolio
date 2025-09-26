@@ -16,7 +16,17 @@
   },
   {
     "category": "react",
-    "img": "/assets/img/portfolio/musicartist.jpg",
+    "img": "/assets/img/portfolio/react-portfolio.jpg",
+    "title": "React Portfolio",
+    "detailsTitle": "React Portfolio",
+    "description": "React Portfolio",
+    "stack": "React",
+    "github": "https://github.com/dmitrylean/react-portfolio",
+    "icons": ["/assets/svg/React.svg"]
+  },
+  {
+    "category": "react",
+    "img": "/assets/img/portfolio/creativeartist.jpg",
     "title": "Creative Artist Template",
     "detailsTitle": "Template for creative professions",
     "description": "React template for creative professions: musicians, beatmakers, designers, artists, etc.",
@@ -45,5 +55,45 @@
       "/assets/svg/css3.svg",
       "/assets/svg/JS.svg"
     ]
+  },
+  {
+    "category": "wordpress",
+    "img": "/assets/img/portfolio/wishbonelanding.jpg",
+    "title": "Wishbone+Partners",
+    "detailsTitle": "Wishbone+Partners",
+    "description": "Landing page for an architectural company",
+    "stack": "Wordpress",
+    "demo": "https://html-projects-template.netlify.app/apps/wishbone/",
+    "icons": [
+      "/assets/svg/wordpress.svg",
+      "/assets/svg/html5.svg",
+      "/assets/svg/css3.svg",
+      "/assets/svg/JS.svg"
+    ]
+  },
+  {
+    "category": "wordpress",
+    "img": "/assets/img/portfolio/luxurycar.jpg",
+    "title": "Luxury Car",
+    "detailsTitle": "Luxury Car",
+    "description": "Car detailing landing page",
+    "stack": "Wordpress",
+    "demo": "https://html-projects-template.netlify.app/apps/luxurycar/",
+    "icons": [
+      "/assets/svg/wordpress.svg",
+      "/assets/svg/html5.svg",
+      "/assets/svg/css3.svg",
+      "/assets/svg/JS.svg"
+    ]
+  },
+  {
+    "category": "wordpress",
+    "img": "/assets/img/portfolio/strikethehub.jpg",
+    "title": "Game Platform",
+    "detailsTitle": "Game Platform",
+    "description": "Multi-page gaming portal website",
+    "stack": "Wordpress",
+    "demo": "https://html-projects-template.netlify.app/apps/gameplatform/",
+    "icons": ["/assets/svg/html5.svg", "/assets/svg/tailwind.svg"]
   }
 ]
