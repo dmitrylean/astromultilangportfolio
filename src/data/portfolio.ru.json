@@ -6,8 +6,13 @@
     "detailsTitle": "Тема Astro",
     "description": "Шаблон портфолио с функцией блога на Astro",
     "stack": "Astro",
-    "demo": "https://dmitryleanblog.netlify.app",
-    "github": "https://github.com/dmitrylean/mainastroportfolio"
+    "demo": "https://dmitrylean.netlify.app",
+    "github": "https://github.com/dmitrylean/mainastroportfolio",
+    "icons": [
+      "/assets/svg/astro-svgrepo-com.svg",
+      "/assets/svg/React.svg",
+      "/assets/svg/typescript.svg"
+    ]
   },
   {
     "category": "react",
@@ -17,7 +22,13 @@
     "description": "Шаблон на React для творческих профессий: музыканты, битмейкеры, дизайнеры, художники итп",
     "stack": "React",
     "demo": "https://musicprojectreact.netlify.app",
-    "github": "https://github.com/dmitrylean/musicartist-reactapp"
+    "github": "https://github.com/dmitrylean/musicartist-reactapp",
+    "icons": [
+      "/assets/svg/React.svg",
+      "/assets/svg/nextjs.svg",
+      "/assets/svg/typescript.svg",
+      "/assets/svg/tailwind.svg"
+    ]
   },
   {
     "category": "wordpress",
@@ -27,17 +38,13 @@
     "description": "Портфолио, содержащее проекты по верстке HTML/CSS/JS. Можно перенести на Wordpress.",
     "stack": "Wordpress",
     "demo": "https://html-projects-template.netlify.app",
-    "github": "https://github.com/dmitrylean/html-projects"
-  },
-  {
-    "category": "react",
-    "img": "/assets/img/portfolio/react-portfolio.jpg",
-    "title": "React Portfolio",
-    "detailsTitle": "React Portfolio",
-    "description": "Мое англоязычное портфолио на React.",
-    "stack": "React",
-    "demo": "https://dmitrylean.netlify.app",
-    "github": "https://github.com/dmitrylean/react-portfolio"
+    "github": "https://github.com/dmitrylean/html-projects",
+    "icons": [
+      "/assets/svg/wordpress.svg",
+      "/assets/svg/html5.svg",
+      "/assets/svg/css3.svg",
+      "/assets/svg/JS.svg"
+    ]
   },
   {
     "category": "wordpress",
@@ -46,6 +53,12 @@
     "detailsTitle": "РумТибет",
     "description": "Экскурсии в горах.",
     "stack": "Wordpress",
-    "demo": "https://html-projects-template.netlify.app/apps/mountainwalking/"
+    "demo": "https://html-projects-template.netlify.app/apps/mountainwalking/",
+    "icons": [
+      "/assets/svg/wordpress.svg",
+      "/assets/svg/html5.svg",
+      "/assets/svg/css3.svg",
+      "/assets/svg/JS.svg"
+    ]
   }
 ]

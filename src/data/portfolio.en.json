@@ -7,7 +7,12 @@
     "description": "Portfolio template with blog functionality on Astro",
     "stack": "Astro",
     "demo": "https://astroblogportfolio.netlify.app",
-    "github": "https://github.com/dmitrylean/astroblogportfolio"
+    "github": "https://github.com/dmitrylean/astroblogportfolio",
+    "icons": [
+      "/assets/svg/astro-svgrepo-com.svg",
+      "/assets/svg/React.svg",
+      "/assets/svg/typescript.svg"
+    ]
   },
   {
     "category": "react",
@@ -17,7 +22,13 @@
     "description": "React template for creative professions: musicians, beatmakers, designers, artists, etc.",
     "stack": "React",
     "demo": "https://musicprojectreact.netlify.app",
-    "github": "https://github.com/dmitrylean/musicartist-reactapp"
+    "github": "https://github.com/dmitrylean/musicartist-reactapp",
+    "icons": [
+      "/assets/svg/React.svg",
+      "/assets/svg/nextjs.svg",
+      "/assets/svg/typescript.svg",
+      "/assets/svg/tailwind.svg"
+    ]
   },
   {
     "category": "wordpress",
@@ -27,16 +38,12 @@
     "description": "Portfolio containing HTML/CSS/JS layout projects. Can be transferred to Wordpress.",
     "stack": "Wordpress",
     "demo": "https://html-projects-template.netlify.app",
-    "github": "https://github.com/dmitrylean/html-projects"
-  },
-  {
-    "category": "react",
-    "img": "/assets/img/portfolio/react-portfolio.jpg",
-    "title": "React Portfolio",
-    "detailsTitle": "React Portfolio",
-    "description": "Main React-portfolio.",
-    "stack": "React",
-    "demo": "https://dmitrylean.netlify.app",
-    "github": "https://github.com/dmitrylean/react-portfolio"
+    "github": "https://github.com/dmitrylean/html-projects",
+    "icons": [
+      "/assets/svg/wordpress.svg",
+      "/assets/svg/html5.svg",
+      "/assets/svg/css3.svg",
+      "/assets/svg/JS.svg"
+    ]
   }
 ]

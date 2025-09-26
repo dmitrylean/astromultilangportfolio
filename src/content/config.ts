@@ -11,4 +11,16 @@ const blog = defineCollection({
   }),
 });
 
-export const collections = { blog };
+const works = defineCollection({
+  type: "data", // или "content", зависит от того, что у тебя в папке
+  schema: z.object({
+    title: z.string(),
+    description: z.string().optional(),
+    img: z.string().optional(),
+    stack: z.string().optional(),
+    github: z.string().optional(),
+    demo: z.string().optional(),
+  }),
+});
+
+export const collections = { blog, works };

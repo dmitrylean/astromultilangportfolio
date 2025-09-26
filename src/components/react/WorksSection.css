@@ -16,12 +16,11 @@
 }
 
 .project-card {
-  background: rgb(247, 244, 244);
+  background: rgb(243, 241, 241);
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease;
-  height: auto;
 }
 
 .project-card:hover {
@@ -45,12 +44,12 @@
 
 .project-content p {
   font-size: 14px;
-  color: black;
   margin-bottom: 15px;
 }
 
 .tags {
   margin-bottom: 15px;
+  display: none;
 }
 
 .tags span {
@@ -68,14 +67,15 @@
   gap: 20px;
 }
 
-.links a {
-  color: black;
+.icon {
+  color: white;
   font-size: 25px;
   text-decoration: none;
 }
 
-.links a:hover {
+.icon:hover {
   color: red;
+  transform: scale(1.2);
 }
 
 .project-meta {
@@ -84,22 +84,76 @@
   justify-content: space-between;
 }
 
+.tech-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.tech-icon img {
+  height: 20px;
+}
+
+/* Filter */
+
+.filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 0.5rem 1rem;
+  border: 2px solid white;
+  border-radius: 25px;
+  background: transparent;
+  color: black;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background: red;
+  color: #fff;
+}
+
+.filter-active {
+  padding: 0.5rem 1rem;
+  background: red;
+  color: #fff;
+  border: 2px solid white;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
 @media (min-width: 300px) {
-  .projects-grid {
+  .projects-grid,
+  .filters {
     grid-template-columns: repeat(1, 1fr);
     padding: 5px 10px;
   }
 }
 
 @media (min-width: 768px) {
-  .projects-grid {
+  .projects-grid,
+  .filters {
     grid-template-columns: repeat(2, 1fr);
     padding: 15px 20px;
+  }
+  .icon {
+    font-size: 20px;
+  }
+  .tech-icons {
+    height: 15px;
   }
 }
 
 @media (min-width: 1024px) {
-  .projects-grid {
+  .projects-grid,
+  .filters {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   }
 }
