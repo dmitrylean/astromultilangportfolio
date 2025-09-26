@@ -6,8 +6,8 @@
     "detailsTitle": "Astro Theme",
     "description": "Portfolio template with blog functionality on Astro",
     "stack": "Astro",
-    "demo": "https://astroblogportfolio.netlify.app",
-    "github": "https://github.com/dmitrylean/astroblogportfolio",
+    "demo": "https://dmitrylean.netlify.app",
+    "github": "https://github.com/dmitrylean/mainastroportfolio",
     "icons": [
       "/assets/svg/astro-svgrepo-com.svg",
       "/assets/svg/React.svg",
@@ -21,8 +21,8 @@
     "detailsTitle": "Template for creative professions",
     "description": "React template for creative professions: musicians, beatmakers, designers, artists, etc.",
     "stack": "React",
-    "demo": "https://musicprojectreact.netlify.app",
-    "github": "https://github.com/dmitrylean/musicartist-reactapp",
+    "demo": "https://nextjs-for-creative.netlify.app",
+    "github": "https://github.com/dmitrylean/creative-template-nextjs",
     "icons": [
       "/assets/svg/React.svg",
       "/assets/svg/nextjs.svg",

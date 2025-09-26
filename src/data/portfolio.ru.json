@@ -21,8 +21,8 @@
     "detailsTitle": "Шаблон для творческих профессий",
     "description": "Шаблон на React для творческих профессий: музыканты, битмейкеры, дизайнеры, художники итп",
     "stack": "React",
-    "demo": "https://musicprojectreact.netlify.app",
-    "github": "https://github.com/dmitrylean/musicartist-reactapp",
+    "demo": "https://nextjs-for-creative.netlify.app",
+    "github": "https://github.com/dmitrylean/creative-template-nextjs",
     "icons": [
       "/assets/svg/React.svg",
       "/assets/svg/nextjs.svg",
