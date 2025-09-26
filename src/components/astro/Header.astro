@@ -187,16 +187,21 @@ if (!Array.isArray(rawMenu)) {
       right: -250px;
       height: 100%;
       width: 250px;
-      background: white;
+      background: rgb(243, 241, 241);
       flex-direction: column;
       padding: 60px 20px;
       transition: right 0.3s ease;
+      gap: 5px;
     }
 
     .nav a {
       margin: 15px 0;
       font-size: 18px;
       color: black;
+    }
+
+    .nav a:hover {
+      color: red;
     }
 
     .nav.active {
