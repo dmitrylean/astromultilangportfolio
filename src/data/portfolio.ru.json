@@ -41,11 +41,11 @@
   },
   {
     "category": "wordpress",
-    "img": "/assets/img/portfolio/mountainwalking.jpg",
+    "img": "/assets/img/portfolio/mountainwalking.png",
     "title": "РумТибет",
     "detailsTitle": "РумТибет",
     "description": "Экскурсии в горах.",
-    "stack": "React",
+    "stack": "Wordpress",
     "demo": "https://html-projects-template.netlify.app/apps/mountainwalking/"
   }
 ]
