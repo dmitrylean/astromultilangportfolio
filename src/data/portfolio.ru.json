@@ -32,19 +32,13 @@
   },
   {
     "category": "react",
-    "img": "/assets/img/portfolio/creativeartist.jpg",
-    "title": "Creative Artist Template",
-    "detailsTitle": "Template for creative professions",
-    "description": "Шаблон на React / Next для творческих профессий.",
+    "img": "/assets/img/portfolio/react-portfolio.jpg",
+    "title": "React Portfolio",
+    "detailsTitle": "React Portfolio",
+    "description": "Портфолио на React",
     "stack": "React",
-    "demo": "https://nextjs-for-creative.netlify.app",
-    "github": "https://github.com/dmitrylean/creative-template-nextjs",
-    "icons": [
-      "/assets/svg/React.svg",
-      "/assets/svg/nextjs.svg",
-      "/assets/svg/typescript.svg",
-      "/assets/svg/tailwind.svg"
-    ]
+    "github": "https://github.com/dmitrylean/react-portfolio",
+    "icons": ["/assets/svg/React.svg"]
   },
   {
     "category": "wordpress",
