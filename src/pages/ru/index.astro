@@ -2,7 +2,6 @@
 import Layout from "../../layouts/Layout.astro";
 import Header from "../../components/astro/Header.astro";
 import About from "../../components/astro/About.astro";
-// import Skills from "../../components/astro/Skills.astro";
 import translations from "../../data/lang.json";
 
 const t = translations["ru"];
@@ -17,7 +16,6 @@ const t = translations["ru"];
     <Layout title={t.meta.title} author={t.meta.author}>
       <Header menu={t.menu} />
       <About {...t.aboutData} />
-      <!-- Skills {...t.skillsData} /> -->
     </Layout>
   </body>
 </html>
