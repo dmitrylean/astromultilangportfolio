@@ -68,7 +68,7 @@
 }
 
 .icon {
-  color: white;
+  color: black;
   font-size: 25px;
   text-decoration: none;
 }
@@ -106,7 +106,7 @@
 
 .filter-btn {
   padding: 0.5rem 1rem;
-  border: 2px solid white;
+  border: 2px solid gray;
   border-radius: 25px;
   background: transparent;
   color: black;
