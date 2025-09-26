@@ -38,5 +38,14 @@
     "stack": "React",
     "demo": "https://dmitrylean.netlify.app",
     "github": "https://github.com/dmitrylean/react-portfolio"
+  },
+  {
+    "category": "wordpress",
+    "img": "/assets/img/portfolio/mountainwalking.jpg",
+    "title": "РумТибет",
+    "detailsTitle": "РумТибет",
+    "description": "Экскурсии в горах.",
+    "stack": "React",
+    "demo": "https://html-projects-template.netlify.app/apps/mountainwalking/"
   }
 ]
