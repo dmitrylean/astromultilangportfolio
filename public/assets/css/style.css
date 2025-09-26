@@ -157,7 +157,7 @@ a {
   padding: 60px 50px;
   padding-bottom: 20px;
   max-width: 1400px;
-  height: 100vh;
+  height: auto;
   margin: 0 auto;
   gap: 60px;
 }
