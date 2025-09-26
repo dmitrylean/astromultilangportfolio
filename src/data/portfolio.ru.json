@@ -6,8 +6,8 @@
     "detailsTitle": "Тема Astro",
     "description": "Шаблон портфолио с функцией блога на Astro",
     "stack": "Astro",
-    "demo": "https://astroblogportfolio.netlify.app",
-    "github": "https://github.com/dmitrylean/astroblogportfolio"
+    "demo": "https://dmitryleanblog.netlify.app",
+    "github": "https://github.com/dmitrylean/mainastroportfolio"
   },
   {
     "category": "react",

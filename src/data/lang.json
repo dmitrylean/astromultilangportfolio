@@ -7,7 +7,7 @@
     "menu": [
       {
         "href": "/ru/",
-        "text": "Обо мне"
+        "text": "Главная"
       },
       {
         "href": "/ru/Portfolio",
@@ -168,7 +168,7 @@
     "menu": [
       {
         "href": "/en/",
-        "text": "About me"
+        "text": "Home"
       },
       {
         "href": "/en/Portfolio",

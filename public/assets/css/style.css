@@ -31,7 +31,7 @@ a {
   text-decoration: none;
 }
 
-/* Nav */
+/* Nav 
 .burger {
   display: none;
   flex-direction: column;
@@ -147,7 +147,7 @@ a {
     display: block;
   }
 }
-
+*/
 /* About */
 
 .about {
@@ -549,7 +549,7 @@ textarea {
   gap: 20px;
   text-decoration: none;
   color: black;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .categories-list li {
