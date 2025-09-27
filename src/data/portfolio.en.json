@@ -1,7 +1,7 @@
 [
   {
     "category": "astro",
-    "img": "/assets/img/portfolio/astroblogportfolio.jpg",
+    "img": "https://html-projects-template.netlify.app/assets/img/astroblogportfolio.jpg",
     "title": "Astro Blog + Portfolio",
     "detailsTitle": "Astro Theme",
     "description": "Portfolio template with blog functionality on Astro",
@@ -16,7 +16,7 @@
   },
   {
     "category": "react",
-    "img": "/assets/img/portfolio/creativeartist.jpg",
+    "img": "https://html-projects-template.netlify.app/assets/img/creativeartist.jpg",
     "title": "Creative Artist Template",
     "detailsTitle": "Template for creative professions",
     "description": "React template for creative professions: musicians, beatmakers, designers, artists, etc.",
@@ -32,7 +32,7 @@
   },
   {
     "category": "wordpress",
-    "img": "/assets/img/portfolio/html-projects.jpg",
+    "img": "/public/assets/img/portfolio/html-projects.jpg",
     "title": "HTML Projects",
     "detailsTitle": "HTML portfolio",
     "description": "Portfolio containing HTML/CSS/JS layout projects. Can be transferred to Wordpress.",
@@ -48,7 +48,7 @@
   },
   {
     "category": "wordpress",
-    "img": "/assets/img/portfolio/wishbonelanding.jpg",
+    "img": "https://html-projects-template.netlify.app/assets/img/wishbonelanding.jpg",
     "title": "Wishbone+Partners",
     "detailsTitle": "Wishbone+Partners",
     "description": "Landing page for an architectural company",
@@ -63,7 +63,7 @@
   },
   {
     "category": "wordpress",
-    "img": "/assets/img/portfolio/luxurycar.jpg",
+    "img": "https://html-projects-template.netlify.app/assets/img/luxurycar.jpg",
     "title": "Luxury Car",
     "detailsTitle": "Luxury Car",
     "description": "Car detailing landing page",
@@ -78,7 +78,7 @@
   },
   {
     "category": "wordpress",
-    "img": "/assets/img/portfolio/strikethehub.jpg",
+    "img": "https://html-projects-template.netlify.app/assets/img/strikethehub.jpg",
     "title": "Game Platform",
     "detailsTitle": "Game Platform",
     "description": "Multi-page gaming portal website",

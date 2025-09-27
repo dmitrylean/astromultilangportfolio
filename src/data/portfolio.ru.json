@@ -1,7 +1,7 @@
 [
   {
     "category": "astro",
-    "img": "/assets/img/portfolio/astroblogportfolio.jpg",
+    "img": "https://html-projects-template.netlify.app/assets/img/astroblogportfolio.jpg",
     "title": "Astro Blog + Portfolio",
     "detailsTitle": "Тема Astro",
     "description": "Шаблон портфолио с функцией блога на Astro",
@@ -16,7 +16,7 @@
   },
   {
     "category": "react",
-    "img": "/assets/img/portfolio/creativeartist.jpg",
+    "img": "https://html-projects-template.netlify.app/assets/img/creativeartist.jpg",
     "title": "Creative Artist Template",
     "detailsTitle": "Шаблон для творческих профессий",
     "description": "Шаблон на React для творческих профессий: музыканты, битмейкеры, дизайнеры, художники итп",
@@ -48,7 +48,7 @@
   },
   {
     "category": "wordpress",
-    "img": "/assets/img/portfolio/mountainwalking.png",
+    "img": "https://html-projects-template.netlify.app/assets/img/mountainwalking.png",
     "title": "РумТибет",
     "detailsTitle": "РумТибет",
     "description": "Экскурсии в горах.",
@@ -63,7 +63,7 @@
   },
   {
     "category": "wordpress",
-    "img": "/assets/img/portfolio/blitzestate.jpg",
+    "img": "https://html-projects-template.netlify.app/assets/img/blitzestate.jpg",
     "title": "Blitz State",
     "detailsTitle": "Blitz State",
     "description": "Лендинг агенства недвижимости.",
@@ -78,7 +78,7 @@
   },
   {
     "category": "wordpress",
-    "img": "/assets/img/portfolio/carservice.jpg",
+    "img": "https://html-projects-template.netlify.app/assets/img/carservice.jpg",
     "title": "Автомастерская",
     "detailsTitle": "Автомастерская",
     "description": "Лендинг автомастерской",
@@ -93,7 +93,7 @@
   },
   {
     "category": "wordpress",
-    "img": "/assets/img/portfolio/hoteldolina.jpg",
+    "img": "https://html-projects-template.netlify.app/assets/img/hoteldolina.jpg",
     "title": "Отель Долина",
     "detailsTitle": "Отель Долина",
     "description": "Лендинг отеля",
@@ -108,7 +108,7 @@
   },
   {
     "category": "wordpress",
-    "img": "/assets/img/portfolio/softerio-tech.jpg",
+    "img": "https://html-projects-template.netlify.app/assets/img/softerio-tech.jpg",
     "title": "Softerio Technology",
     "detailsTitle": "Softerio Technology",
     "description": "Лендинг студии разработки",
@@ -123,7 +123,7 @@
   },
   {
     "category": "wordpress",
-    "img": "/assets/img/portfolio/strikethehub.jpg",
+    "img": "https://html-projects-template.netlify.app/assets/img/strikethehub.jpg",
     "title": "Game Platform",
     "detailsTitle": "Game Platform",
     "description": "Многостраничный сайт игрового портала",
@@ -133,7 +133,7 @@
   },
   {
     "category": "wordpress",
-    "img": "/assets/img/portfolio/sportcarrent.jpg",
+    "img": "https://html-projects-template.netlify.app/assets/img/sportcarrent.jpg",
     "title": "ReadyOn",
     "detailsTitle": "ReadyOn",
     "description": "Лендинг по аренде спорткаров",
@@ -148,7 +148,7 @@
   },
   {
     "category": "wordpress",
-    "img": "/assets/img/portfolio/luxurycar.jpg",
+    "img": "https://html-projects-template.netlify.app/assets/img/luxurycar.jpg",
     "title": "Luxury Car",
     "detailsTitle": "Luxury Car",
     "description": "Лендинг детайлинг автомобилей",
@@ -163,7 +163,7 @@
   },
   {
     "category": "wordpress",
-    "img": "/assets/img/portfolio/pdvpage.jpg",
+    "img": "https://html-projects-template.netlify.app/assets/img/pdvpage.jpg",
     "title": "Поставщик Дальнего Востока",
     "detailsTitle": "Поставщик Дальнего Востока",
     "description": "Лендинг логистической компании",
@@ -178,7 +178,7 @@
   },
   {
     "category": "wordpress",
-    "img": "/assets/img/portfolio/wishbonelanding.jpg",
+    "img": "https://html-projects-template.netlify.app/assets/img/wishbonelanding.jpg",
     "title": "Wishbone+Partners",
     "detailsTitle": "Wishbone+Partners",
     "description": "Лендинг архитектурной компании",
@@ -193,7 +193,7 @@
   },
   {
     "category": "wordpress",
-    "img": "/assets/img/portfolio/wolfmedia.jpg",
+    "img": "https://html-projects-template.netlify.app/assets/img/wolfmedia.jpg",
     "title": "WolfMedia",
     "detailsTitle": "WolfMedia",
     "description": "Лендинг рекламного агентства",
