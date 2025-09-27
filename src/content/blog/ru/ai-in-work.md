@@ -3,7 +3,7 @@ title: "Использование ИИ в работе. Так ли все пр
 date: 2025-08-16
 description: "Развенчиваю мифы от инфоцыган про использование ИИ"
 categories: ["Искусственный интеллект"]
-image: "/assets/img/blog/aiart.webp"
+image: "https://habrastorage.org/getpro/habr/upload_files/ca9/b83/076/ca9b83076cde20e4f6aaada2829f565b.jpg"
 ---
 
 # Вступление

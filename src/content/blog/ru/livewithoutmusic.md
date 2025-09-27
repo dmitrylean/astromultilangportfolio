@@ -2,8 +2,8 @@
 title: "Из музыканта в разработчики. Я бросил музыку."
 date: 2025-08-21
 description: "Эта статья касается моего жизненного пути. Как не вертись, а если уж ты технарь, то это с тобой навсегда."
-categories: ["Психология"]  
-image: "/assets/img/blog/livewithoutmusic.jpg"
+categories: ["Психология"]
+image: "https://static.vecteezy.com/system/resources/thumbnails/030/633/130/small_2x/an-image-of-an-electric-guitar-in-a-moody-bluesy-ambiance-with-textured-lighting-and-background-that-capture-the-essence-of-blues-music-and-designated-areas-for-text-ai-generated-photo.jpg"
 ---
 
 # Вступление

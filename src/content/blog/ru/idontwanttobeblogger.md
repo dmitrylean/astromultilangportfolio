@@ -2,8 +2,8 @@
 title: "Блогерство - это самоэксплуатация! Почему я не хочу публичности"
 date: 2025-08-22
 description: "В этой статье я решил порассуждать о публичности и блогинге."
-categories: ["Психология"]  
-image: "/assets/img/blog/iamnotblogger.jpg"
+categories: ["Психология"]
+image: "https://profchoice.ru/wp-content/uploads/2016/08/%D0%91%D0%BB%D0%BE%D0%B3%D0%B3%D0%B5%D1%80-1.jpg"
 ---
 
 # Введение

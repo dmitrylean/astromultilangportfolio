@@ -3,7 +3,7 @@ title: “From musician to developer. I gave up music.”
 date: 2025-08-21
 description: “This article is about my life journey. No matter how you look at it, if you're a techie, it's with you forever.”
 categories: ["Psychology"]
-image: /assets/img/blog/livewithoutmusic.jpg
+image: "https://static.vecteezy.com/system/resources/thumbnails/030/633/130/small_2x/an-image-of-an-electric-guitar-in-a-moody-bluesy-ambiance-with-textured-lighting-and-background-that-capture-the-essence-of-blues-music-and-designated-areas-for-text-ai-generated-photo.jpg"
 ---
 
 # Introduction

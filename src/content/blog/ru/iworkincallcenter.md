@@ -2,8 +2,8 @@
 title: "Я работал оператором колл центра - все подводные камни профессии"
 date: 2025-08-18
 description: "Я работал на той работе, которую ненавидел. Уволился и ушел работать оператором"
-categories: ["Работа"]  
-image: "/assets/img/blog/callcenterpost.jpg"
+categories: ["Работа"]
+image: "https://www.gazeta.uz/media/img/2020/08/wgCJHq15984324882944_b.jpg"
 ---
 
 # Вступление

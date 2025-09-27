@@ -2,8 +2,8 @@
 title: "Не откликайтесь на эти вакансии!"
 date: 2025-08-28
 description: "Треш вакансии на которые не нужно откликаться."
-categories: ["Работа"]  
-image: "/assets/img/blog/trashwork.jpg"
+categories: ["Работа"]
+image: "https://erbp.ru/system/main_images/63179/normal/DeliveryClub-arseny-averyanov-byrkVEVf6jw-unsplash.jpg?1667900536"
 ---
 
 # Введение
