@@ -32,7 +32,7 @@
   },
   {
     "category": "wordpress",
-    "img": "/public/assets/img/portfolio/html-projects.jpg",
+    "img": "/assets/img/portfolio/html-projects.jpg",
     "title": "HTML Projects",
     "detailsTitle": "HTML portfolio",
     "description": "Frontend базис с проектами по верстке, а также библиотека с документацией, шаблонами и примерами кода.",
