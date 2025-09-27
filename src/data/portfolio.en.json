@@ -35,7 +35,7 @@
     "img": "/public/assets/img/portfolio/html-projects.jpg",
     "title": "HTML Projects",
     "detailsTitle": "HTML portfolio",
-    "description": "Portfolio containing HTML/CSS/JS layout projects. Can be transferred to Wordpress.",
+    "description": "A frontend framework with layout projects, as well as a library with documentation, templates, and code examples.",
     "stack": "Wordpress",
     "demo": "https://html-projects-template.netlify.app",
     "github": "https://github.com/dmitrylean/html-projects",
@@ -44,49 +44,6 @@
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-    ]
-  },
-  {
-    "category": "wordpress",
-    "img": "https://html-projects-template.netlify.app/assets/img/wishbonelanding.jpg",
-    "title": "Wishbone+Partners",
-    "detailsTitle": "Wishbone+Partners",
-    "description": "Landing page for an architectural company",
-    "stack": "Wordpress",
-    "demo": "https://html-projects-template.netlify.app/apps/wishbone/",
-    "icons": [
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-    ]
-  },
-  {
-    "category": "wordpress",
-    "img": "https://html-projects-template.netlify.app/assets/img/luxurycar.jpg",
-    "title": "Luxury Car",
-    "detailsTitle": "Luxury Car",
-    "description": "Car detailing landing page",
-    "stack": "Wordpress",
-    "demo": "https://html-projects-template.netlify.app/apps/luxurycar/",
-    "icons": [
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-    ]
-  },
-  {
-    "category": "wordpress",
-    "img": "https://html-projects-template.netlify.app/assets/img/strikethehub.jpg",
-    "title": "Game Platform",
-    "detailsTitle": "Game Platform",
-    "description": "Multi-page gaming portal website",
-    "stack": "Wordpress",
-    "demo": "https://html-projects-template.netlify.app/apps/gameplatform/",
-    "icons": [
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
     ]
   }
 ]
