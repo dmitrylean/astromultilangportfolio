@@ -31,16 +31,6 @@
     ]
   },
   {
-    "category": "react",
-    "img": "/assets/img/portfolio/react-portfolio.jpg",
-    "title": "React Portfolio",
-    "detailsTitle": "React Portfolio",
-    "description": "Портфолио на React",
-    "stack": "React",
-    "github": "https://github.com/dmitrylean/react-portfolio",
-    "icons": ["/assets/svg/React.svg"]
-  },
-  {
     "category": "wordpress",
     "img": "/assets/img/portfolio/html-projects.jpg",
     "title": "HTML Projects",

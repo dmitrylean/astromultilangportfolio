@@ -2,50 +2,67 @@ import React, { useState } from "react";
 import WorksSection from "./WorksSection.jsx";
 import MusicProjects from "./MusicProjects.jsx";
 import AlbumCard from "./AlbumCard.jsx";
+import albumsEn from "../../data/albums.en.json";
+import albumsRu from "../../data/albums.ru.json";
 import "./PageToggle.css";
 
-export default function PageToggle() {
-  const [showAlt, setShowAlt] = useState(false);
+export default function PageToggle({ lang = "en" }) {
+  const [activeTab, setActiveTab] = useState("works");
+
+  // albums by language
+  const albumsData = lang === "ru" ? albumsRu : albumsEn;
+
+  // translations
+  const t = {
+    en: {
+      works: "Works",
+      music: "Music",
+      albums: "Albums",
+    },
+    ru: {
+      works: "Работы",
+      music: "Музыка",
+      albums: "Альбомы",
+    },
+  }[lang];
 
   return (
     <div className="container">
-      {/* Toggle */}
-      <div className="fx-block">
-        <div className="toggle">
-          <input
-            type="checkbox"
-            id="toggles"
-            checked={showAlt}
-            onChange={() => setShowAlt(!showAlt)}
-          />
-          <label
-            htmlFor="toggles"
-            data-unchecked="Works"
-            data-checked="Music+Other"
-          ></label>
-        </div>
+      {/* Tabs */}
+      <div className="tabs">
+        <button
+          className={`tab-btn ${activeTab === "works" ? "active" : ""}`}
+          onClick={() => setActiveTab("works")}
+        >
+          {t.works}
+        </button>
+        <button
+          className={`tab-btn ${activeTab === "music" ? "active" : ""}`}
+          onClick={() => setActiveTab("music")}
+        >
+          {t.music}
+        </button>
       </div>
 
-      {/* Switch content */}
-      <div className="content">
-        {!showAlt ? (
-          <WorksSection />
+      {/* Content */}
+      <div className="tab-content">
+        {activeTab === "works" ? (
+          <WorksSection lang={lang} />
         ) : (
           <>
-            <div class="albums-section">
-              <div class="container">
-                <h2 class="album-title">Albums</h2>
-                <div class="albums-gallery">
-                  <div class="discography-grid">
+            <div className="albums-section">
+              <div className="container">
+                <h2 className="album-title">{t.albums}</h2>
+                <div className="albums-gallery">
+                  <div className="discography-grid">
                     {albumsData.map((album, index) => (
-                      <AlbumCard album={album} client:visible />
+                      <AlbumCard key={index} album={album} />
                     ))}
                   </div>
                 </div>
               </div>
             </div>
-
-            <MusicProjects client:visible />
+            <MusicProjects lang={lang} />
           </>
         )}
       </div>

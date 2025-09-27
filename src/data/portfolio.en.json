@@ -16,16 +16,6 @@
   },
   {
     "category": "react",
-    "img": "/assets/img/portfolio/react-portfolio.jpg",
-    "title": "React Portfolio",
-    "detailsTitle": "React Portfolio",
-    "description": "React Portfolio",
-    "stack": "React",
-    "github": "https://github.com/dmitrylean/react-portfolio",
-    "icons": ["/assets/svg/React.svg"]
-  },
-  {
-    "category": "react",
     "img": "/assets/img/portfolio/creativeartist.jpg",
     "title": "Creative Artist Template",
     "detailsTitle": "Template for creative professions",
