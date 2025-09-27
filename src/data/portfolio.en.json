@@ -9,9 +9,9 @@
     "demo": "https://dmitrylean.netlify.app",
     "github": "https://github.com/dmitrylean/mainastroportfolio",
     "icons": [
-      "/assets/svg/astro-svgrepo-com.svg",
-      "/assets/svg/React.svg",
-      "/assets/svg/typescript.svg"
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/astro/astro-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
     ]
   },
   {
@@ -24,10 +24,10 @@
     "demo": "https://nextjs-for-creative.netlify.app",
     "github": "https://github.com/dmitrylean/creative-template-nextjs",
     "icons": [
-      "/assets/svg/React.svg",
-      "/assets/svg/nextjs.svg",
-      "/assets/svg/typescript.svg",
-      "/assets/svg/tailwind.svg"
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
     ]
   },
   {
@@ -40,10 +40,10 @@
     "demo": "https://html-projects-template.netlify.app",
     "github": "https://github.com/dmitrylean/html-projects",
     "icons": [
-      "/assets/svg/wordpress.svg",
-      "/assets/svg/html5.svg",
-      "/assets/svg/css3.svg",
-      "/assets/svg/JS.svg"
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
     ]
   },
   {
@@ -55,10 +55,10 @@
     "stack": "Wordpress",
     "demo": "https://html-projects-template.netlify.app/apps/wishbone/",
     "icons": [
-      "/assets/svg/wordpress.svg",
-      "/assets/svg/html5.svg",
-      "/assets/svg/css3.svg",
-      "/assets/svg/JS.svg"
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
     ]
   },
   {
@@ -70,10 +70,10 @@
     "stack": "Wordpress",
     "demo": "https://html-projects-template.netlify.app/apps/luxurycar/",
     "icons": [
-      "/assets/svg/wordpress.svg",
-      "/assets/svg/html5.svg",
-      "/assets/svg/css3.svg",
-      "/assets/svg/JS.svg"
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
     ]
   },
   {
@@ -84,6 +84,9 @@
     "description": "Multi-page gaming portal website",
     "stack": "Wordpress",
     "demo": "https://html-projects-template.netlify.app/apps/gameplatform/",
-    "icons": ["/assets/svg/html5.svg", "/assets/svg/tailwind.svg"]
+    "icons": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+    ]
   }
 ]
