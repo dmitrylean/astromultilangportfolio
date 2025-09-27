@@ -20,19 +20,23 @@
 }
 
 .tab {
-  padding: 10px 20px;
-  border: none;
-  background: none;
-  color: white;
-  font-size: 16px;
+  padding: 0.5rem 1rem;
+  border: 2px solid gray;
+  border-radius: 25px;
+  background: transparent;
+  color: black;
+  font-size: 0.9rem;
   cursor: pointer;
-  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
 }
 
 .tab.active {
-  background-color: red;
-  color: white;
-  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  background: red;
+  color: #fff;
+  border: 2px solid white;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .track-header {
@@ -58,7 +62,7 @@
   font-weight: bold;
   font-size: 16px;
   margin: 0;
-  color: white;
+  color: black;
 }
 
 .track-info .author {
@@ -72,7 +76,7 @@
   font-size: 48px;
   font-weight: 900;
   letter-spacing: 2px;
-  color: white;
+  color: black;
   margin-bottom: 10px;
 }
 
@@ -101,11 +105,11 @@ audio {
   }
 
   .track-header {
-    display: none; 
+    display: none;
   }
 
   .track {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
     gap: 10px;
   }
 

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import WorksSection from "./WorksSection.jsx";
 import MusicProjects from "./MusicProjects.jsx";
 import AlbumCard from "./AlbumCard.jsx";
+import Tracklist from "./Tracklist.jsx";
 import albumsEn from "../../data/albums.en.json";
 import albumsRu from "../../data/albums.ru.json";
 import "./PageToggle.css";
@@ -18,11 +19,13 @@ export default function PageToggle({ lang = "en" }) {
       works: "Works",
       music: "Music",
       albums: "Albums",
+      tracks: "Beats",
     },
     ru: {
       works: "Работы",
       music: "Музыка",
       albums: "Альбомы",
+      tracks: "Beats",
     },
   }[lang];
 
@@ -42,13 +45,19 @@ export default function PageToggle({ lang = "en" }) {
         >
           {t.music}
         </button>
+        <button
+          className={`tab-btn ${activeTab === "tracks" ? "active" : ""}`}
+          onClick={() => setActiveTab("tracks")}
+        >
+          {t.tracks}
+        </button>
       </div>
 
       {/* Content */}
       <div className="tab-content">
-        {activeTab === "works" ? (
-          <WorksSection lang={lang} />
-        ) : (
+        {activeTab === "works" && <WorksSection lang={lang} />}
+
+        {activeTab === "music" && (
           <>
             <div className="albums-section">
               <div className="container">
@@ -65,6 +74,8 @@ export default function PageToggle({ lang = "en" }) {
             <MusicProjects lang={lang} />
           </>
         )}
+
+        {activeTab === "tracks" && <Tracklist lang={lang} />}
       </div>
     </div>
   );
