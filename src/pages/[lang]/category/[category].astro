@@ -1,6 +1,5 @@
 ---
 import Layout from "../../../layouts/Layout.astro";
-import Header from "../../../components/astro/Header.astro";
 import CategoryFilter from "../../../components/astro/CategoryFilter.astro";
 import langData from "../../../data/lang.json";
 import { getCollection, type CollectionEntry } from "astro:content";
@@ -25,7 +24,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
     const langPosts = allPosts.filter((p) => p.slug.startsWith(`${lang}/`));
 
     const categories = Array.from(
-      new Set(langPosts.flatMap((p) => extractCategories(p))),
+      new Set(langPosts.flatMap((p) => extractCategories(p)))
     );
 
     categories.forEach((category) => {
@@ -45,7 +44,7 @@ const category = params.category;
 const allPosts = await getCollection("blog");
 const posts = allPosts.filter(
   (p) =>
-    p.slug.startsWith(`${lang}/`) && extractCategories(p).includes(category),
+    p.slug.startsWith(`${lang}/`) && extractCategories(p).includes(category)
 );
 
 // 4️⃣ All unique categories for filter
@@ -53,7 +52,7 @@ const categories = [
   ...new Set(
     allPosts
       .filter((p) => p.slug.startsWith(`${lang}/`))
-      .flatMap(extractCategories),
+      .flatMap(extractCategories)
   ),
 ];
 
@@ -62,8 +61,6 @@ const catDict = (langData as any)[lang].categories as Record<string, string>;
 ---
 
 <Layout title={`${catDict[category] ?? category} | Adam Lean`}>
-  <Header menu={(langData as any)[lang].menu} />
-
   <!-- ✅ The category filter is available directly on the page -->
   <CategoryFilter
     categories={categories}
