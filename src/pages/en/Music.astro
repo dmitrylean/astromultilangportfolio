@@ -1,17 +1,14 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import Header from "../../components/astro/Header.astro";
 import MusicProjects from "../../components/react/MusicProjects";
 import AlbumCard from "../../components/react/AlbumCard";
 import albumsen from "../../data/albums.en.json";
-import lang from "../../data/lang.json";
 
 const currentLang = "en";
 const albumsData = albumsen;
 ---
 
 <Layout title={`Projects | Dmitry Lean`}>
-  <Header menu={lang[currentLang].menu} />
   <main class="content">
     <div class="albums-section">
       <div class="container">

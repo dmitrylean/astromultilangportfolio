@@ -1,21 +1,11 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import Header from "../../components/astro/Header.astro";
 import About from "../../components/astro/About.astro";
 import translations from "../../data/lang.json";
 
 const t = translations["ru"];
 ---
 
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <title>{t.meta.title}</title>
-  </head>
-  <body>
-    <Layout title={t.meta.title} author={t.meta.author}>
-      <Header menu={t.menu} />
-      <About {...t.aboutData} />
-    </Layout>
-  </body>
-</html>
+<Layout title={t.meta.title} author={t.meta.author}>
+  <About {...t.aboutData} />
+</Layout>

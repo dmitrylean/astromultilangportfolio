@@ -1,7 +1,5 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import Header from "../../components/astro/Header.astro";
-// import Works from "../../components/astro/Works.astro";
 import WorksSection from "../../components/react/WorksSection";
 import lang from "../../data/lang.json";
 
@@ -12,13 +10,8 @@ const t = lang[locale];
 ---
 
 <Layout title="Проекты | Dmitry Lean">
-  <Header menu={lang[currentLang].menu} />
-
   <main class="content">
     <div class="conteiner">
-      <!-- <h2>Var. 1</h2> 
-      <Works />
-      <h2>Var. 2</h2> -->
       <WorksSection client:visible />
     </div>
   </main>

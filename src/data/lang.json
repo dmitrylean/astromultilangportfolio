@@ -14,6 +14,10 @@
         "text": "Проекты"
       },
       {
+        "href": "/ru/Blog",
+        "text": "Блог"
+      },
+      {
         "href": "/ru/Contact",
         "text": "Контакты"
       },
@@ -148,10 +152,6 @@
         {
           "href": "https://www.behance.net/adamlean92",
           "icon": "fab fa-behance"
-        },
-        {
-          "href": "https://soundcloud.com/mastamonk36",
-          "icon": "fa-brands fa-soundcloud"
         }
       ]
     }
@@ -169,6 +169,10 @@
       {
         "href": "/en/Portfolio",
         "text": "Projects"
+      },
+      {
+        "href": "/en/Blog",
+        "text": "Blog"
       },
       {
         "href": "/en/Contact",
@@ -303,10 +307,6 @@
         {
           "href": "https://www.behance.net/adamlean92",
           "icon": "fab fa-behance"
-        },
-        {
-          "href": "https://soundcloud.com/mastamonk36",
-          "icon": "fa-brands fa-soundcloud"
         }
       ]
     }

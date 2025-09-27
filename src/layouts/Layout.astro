@@ -1,5 +1,7 @@
 ---
 import lang from "../data/lang.json";
+import HeaderSection from "../components/react/HeaderSection";
+// import Header from "../../components/astro/Header.astro";
 import Footer from "../components/astro/Footer.astro";
 
 // Определяем язык по URL
@@ -55,6 +57,8 @@ const {
     />
   </head>
   <body>
+    <!-- <Header menu={t.menu} /> -->
+    <HeaderSection menu={t.menu} client:visible />
     <slot />
 
     <!--<script src="/assets/js/main.js" defer></script>-->
@@ -69,5 +73,3 @@ const {
     />
   </body>
 </html>
--->
-
