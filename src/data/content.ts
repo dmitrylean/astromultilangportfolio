@@ -11,6 +11,14 @@ export const aboutData = {
     href: "https://t.me/dg404_bot",
     text: "Связаться",
   },
+  projectLink: {
+    href: "https://t.me/dg404_bot",
+    text: "Связаться",
+  },
+  musicLink: {
+    href: "https://t.me/dg404_bot",
+    text: "Связаться",
+  },
 };
 
 export const skillsData = {
@@ -22,12 +30,8 @@ export const skillsData = {
   ],
 };
 
-
 import type { CollectionEntry } from "astro:content";
 
-/**
- * Преобразует поле categories из Markdown в массив строк
- */
 export function extractCategories(post: CollectionEntry<"blog">): string[] {
   const c = (post.data as any)?.categories;
   if (!c) return [];
@@ -35,4 +39,3 @@ export function extractCategories(post: CollectionEntry<"blog">): string[] {
   if (typeof c === "string") return [c];
   return [];
 }
-

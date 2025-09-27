@@ -46,8 +46,12 @@
         "Создаю современные веб-приложения на JavaScript и React. Работаю с WordPress и использую Python для автоматизации и разработки ботов."
       ],
       "contactLink": {
-        "href": "https://t.me/dg404_bot",
+        "href": "/ru/Contact",
         "text": "Связаться со мной"
+      },
+      "projectLink": {
+        "href": "/ru/Portfolio",
+        "text": "Проекты"
       }
     },
     "skillsData": {
@@ -201,8 +205,12 @@
         "I create modern web applications with JavaScript and React. I work with WordPress and use Python for automation and bot development."
       ],
       "contactLink": {
-        "href": "https://t.me/dg404_bot",
+        "href": "/en/Contact",
         "text": "Contact me"
+      },
+      "projectLink": {
+        "href": "/en/Portfolio",
+        "text": "Projects"
       }
     },
     "skillsData": {

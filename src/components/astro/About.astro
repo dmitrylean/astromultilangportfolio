@@ -4,6 +4,16 @@ interface ContactLink {
   text: string;
 }
 
+interface ProjectLink {
+  href: string;
+  text: string;
+}
+
+// interface MusicLink {
+//   href: string;
+//  text: string;
+// }
+
 interface Props {
   imageSrc: string;
   imageAlt: string;
@@ -11,10 +21,20 @@ interface Props {
   subtitle: string;
   paragraphs: string[];
   contactLink: ContactLink;
+  projectLink: ProjectLink;
+  // musicLink: MusicLink;
 }
 
-const { imageSrc, imageAlt, title, subtitle, paragraphs, contactLink } =
-  Astro.props as Props;
+const {
+  imageSrc,
+  imageAlt,
+  title,
+  subtitle,
+  paragraphs,
+  contactLink,
+  projectLink,
+  // musicLink,
+} = Astro.props as Props;
 ---
 
 <!-- <section class="about" id="about">
@@ -39,8 +59,12 @@ const { imageSrc, imageAlt, title, subtitle, paragraphs, contactLink } =
       {subtitle}
     </h2>
 
-    {paragraphs.map((text) => <p>{text}</p>)}
-    <a href={contactLink.href} class="btn">{contactLink.text}</a>
+    <div class="btn-grid">
+      {paragraphs.map((text) => <p>{text}</p>)}
+      <a href={contactLink.href} class="contact-btn">{contactLink.text}</a>
+      <a href={projectLink.href} class="projects-btn">{projectLink.text}</a>
+      <!-- <a href={musicLink.href} class="music-btn">{musicLink.text}</a> -->
+    </div>
   </div>
 
   <div class="hero-image">
@@ -77,7 +101,12 @@ const { imageSrc, imageAlt, title, subtitle, paragraphs, contactLink } =
     line-height: 1.6;
   }
 
-  .btn {
+  .btn-grid {
+    flex: 1;
+    gap: 40px;
+  }
+
+  .contact-btn {
     display: inline-block;
     padding: 12px 24px;
     background: #ff5a5f;
@@ -88,7 +117,20 @@ const { imageSrc, imageAlt, title, subtitle, paragraphs, contactLink } =
     transition: background 0.3s ease;
   }
 
-  .btn:hover {
+  .projects-btn,
+  .music-btn {
+    display: none;
+    padding: 12px 24px;
+    background: #ff5a5f;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+  }
+
+  .contact-btn:hover,
+  .projects-btn:hover {
     background: white;
     color: black;
     border: 2px black;
@@ -122,6 +164,19 @@ const { imageSrc, imageAlt, title, subtitle, paragraphs, contactLink } =
     .hero-image {
       order: 1;
       margin-bottom: 20px;
+    }
+
+    .btn-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      flex: 1;
+      width: auto;
+    }
+
+    .projects-btn,
+    .music-btn {
+      display: inline-block;
     }
   }
 </style>
