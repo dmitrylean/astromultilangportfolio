@@ -6,11 +6,24 @@
     "detailsTitle": "Тема Astro",
     "description": "Шаблон портфолио с функцией блога на Astro",
     "stack": "Astro",
-    "demo": "https://dmitrylean.netlify.app",
-    "github": "https://github.com/dmitrylean/mainastroportfolio",
+    "demo": "https://astroblogportfolio.netlify.app/",
+    "github": "https://github.com/dmitrylean/astroblogportfolio",
     "icons": [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/astro/astro-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+    ]
+  },
+  {
+    "category": "astro",
+    "img": "/assets/img/portfolio/astroblog.jpg",
+    "title": "Astro Blog",
+    "detailsTitle": "Тема Astro",
+    "description": "Шаблон Astro-блога",
+    "stack": "Astro",
+    "demo": "https://astro-blogdev.netlify.app/",
+    "github": "https://github.com/dmitrylean/astro-blog",
+    "icons": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/astro/astro-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
     ]
   },
@@ -27,6 +40,46 @@
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+    ]
+  },
+  {
+    "category": "react",
+    "img": "/assets/img/portfolio/reactportfolio.jpg",
+    "title": "React Portfolio",
+    "detailsTitle": "React Portfolio",
+    "description": "Мое React-портфолио",
+    "stack": "React",
+    "demo": "https://reactportfolioapp0.netlify.app/",
+    "github": "https://github.com/dmitrylean/react-portfolio",
+    "icons": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    ]
+  },
+  {
+    "category": "react",
+    "img": "/assets/img/portfolio/luxurycar.jpg",
+    "title": "Luxury Details",
+    "detailsTitle": "Luxury Details",
+    "description": "Лендинг на React компании, которая занимается детейлингом автомобилей",
+    "stack": "React",
+    "demo": "https://luxurycar-reactlanding.netlify.app/",
+    "github": "https://github.com/dmitrylean/react-landing-luxurycar",
+    "icons": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    ]
+  },
+  {
+    "category": "react",
+    "img": "/assets/img/portfolio/strikethehub.jpg",
+    "title": "Strike The Hub",
+    "detailsTitle": "Strike The Hub",
+    "description": "Геймерский портал, посвященный шутерам",
+    "stack": "React",
+    "demo": "https://strikethehub.netlify.app",
+    "github": "https://github.com/dmitrylean/strikethehub",
+    "icons": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
     ]
   },
@@ -58,6 +111,18 @@
     "icons": [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+    ]
+  },
+  {
+    "category": "wordpress",
+    "img": "/assets/img/portfolio/delotebeauty.jpg",
+    "title": "WP Projects",
+    "detailsTitle": "WP Projects",
+    "description": "Мини-темы для Wordpress.",
+    "stack": "Wordpress",
+    "github": "https://github.com/dmitrylean/wp-projects",
+    "icons": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg"
     ]
   }
 ]
