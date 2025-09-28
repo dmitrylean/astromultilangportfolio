@@ -1,7 +1,7 @@
 [
   {
     "category": "astro",
-    "img": "https://html-projects-template.netlify.app/assets/img/astroblogportfolio.jpg",
+    "img": "/assets/img/portfolio/astroblogportfolio.jpg",
     "title": "Astro Blog + Portfolio",
     "detailsTitle": "Astro Theme",
     "description": "Portfolio template with blog functionality on Astro",
@@ -16,7 +16,7 @@
   },
   {
     "category": "react",
-    "img": "https://html-projects-template.netlify.app/assets/img/creativeartist.jpg",
+    "img": "/assets/img/portfolio/creativeartist.jpg",
     "title": "Creative Artist Template",
     "detailsTitle": "Template for creative professions",
     "description": "React template for creative professions: musicians, beatmakers, designers, artists, etc.",
@@ -31,16 +31,16 @@
     ]
   },
   {
-    "category": "wordpress",
+    "category": "astro",
     "img": "/assets/img/portfolio/html-projects.jpg",
-    "title": "HTML Projects",
-    "detailsTitle": "HTML portfolio",
-    "description": "A frontend framework with layout projects, as well as a library with documentation, templates, and code examples.",
-    "stack": "Wordpress",
-    "demo": "https://html-projects-template.netlify.app",
-    "github": "https://github.com/dmitrylean/html-projects",
+    "title": "Crash The Routines",
+    "detailsTitle": "Crash The Routines",
+    "description": "Frontend projects, code base, library, templates & docs",
+    "stack": "Astro",
+    "demo": "https://crashtheroutines.netlify.app/",
+    "github": "https://github.com/dmitrylean/frontend-basis-projects",
     "icons": [
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/astro/astro-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
