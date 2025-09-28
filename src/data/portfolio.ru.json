@@ -45,5 +45,19 @@
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
     ]
+  },
+  {
+    "category": "react",
+    "img": "/assets/img/portfolio/reactadmin.jpg",
+    "title": "React Admin",
+    "detailsTitle": "React Admin",
+    "description": "Админ панель на React.",
+    "stack": "React",
+    "demo": "https://react-admin10.netlify.app/",
+    "github": "https://github.com/dmitrylean/react-dashboard",
+    "icons": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+    ]
   }
 ]
