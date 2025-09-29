@@ -45,19 +45,6 @@
   },
   {
     "category": "react",
-    "img": "/assets/img/portfolio/reactportfolio.jpg",
-    "title": "React Portfolio",
-    "detailsTitle": "React Portfolio",
-    "description": "Мое React-портфолио",
-    "stack": "React",
-    "demo": "https://reactportfolioapp0.netlify.app/",
-    "github": "https://github.com/dmitrylean/react-portfolio",
-    "icons": [
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-    ]
-  },
-  {
-    "category": "react",
     "img": "/assets/img/portfolio/strikethehub.jpg",
     "title": "Strike The Hub",
     "detailsTitle": "Strike The Hub",
