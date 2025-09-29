@@ -58,19 +58,6 @@
   },
   {
     "category": "react",
-    "img": "/assets/img/portfolio/luxurycar.jpg",
-    "title": "Luxury Details",
-    "detailsTitle": "Luxury Details",
-    "description": "React landing page for a car detailing company",
-    "stack": "React",
-    "demo": "https://luxurycar-reactlanding.netlify.app/",
-    "github": "https://github.com/dmitrylean/react-landing-luxurycar",
-    "icons": [
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-    ]
-  },
-  {
-    "category": "react",
     "img": "/assets/img/portfolio/strikethehub.jpg",
     "title": "Strike The Hub",
     "detailsTitle": "Strike The Hub",
