@@ -515,7 +515,7 @@ textarea {
 }
 
 .article-container a:hover {
-  color: #80c0ff;
+  color: red;
 }
 
 /* Categories */
