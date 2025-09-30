@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 export default function ThemeToggle() {
   const [theme, setTheme] = useState("light");
@@ -19,7 +20,11 @@ export default function ThemeToggle() {
 
   return (
     <button onClick={toggleTheme} className="theme-btn">
-      {theme === "light" ? "🌙" : "☀️"}
+      {theme === "light" ? (
+        <i className="fa-solid fa-moon"></i>
+      ) : (
+        <i className="fa-solid fa-sun"></i>
+      )}
     </button>
   );
 }
