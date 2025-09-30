@@ -62,7 +62,10 @@ const ContactSection = ({ lang = "en" }) => {
               <input type="email" placeholder={t.placeholders.email} required />
 
               <label>{t.labels.message}</label>
-              <textarea placeholder={t.placeholders.message} required></textarea>
+              <textarea
+                placeholder={t.placeholders.message}
+                required
+              ></textarea>
 
               <button type="submit" className="btn-submit">
                 {t.submit}

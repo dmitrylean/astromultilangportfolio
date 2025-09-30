@@ -1,11 +1,20 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import About from "../../components/astro/About.astro";
-import translations from "../../data/lang.json";
+import lang from "../../data/lang.json";
+import Hero from "../../components/react/Hero.jsx";
 
-const t = translations["ru"];
+const currentLang = "ru";
+const t = lang[currentLang];
+const heroData = t.aboutData;
 ---
 
 <Layout title={t.meta.title} author={t.meta.author}>
-  <About {...t.aboutData} />
+  <Hero
+    title={heroData.title}
+    subtitle={heroData.subtitle}
+    stack={heroData.stack}
+    contactLink={heroData.contactLink}
+    projectLink={heroData.projectLink}
+    client:visible
+  />
 </Layout>

@@ -1,19 +1,20 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import About from "../../components/astro/About.astro";
-import translations from "../../data/lang.json";
+import lang from "../../data/lang.json";
+import Hero from "../../components/react/Hero.jsx";
 
-const t = translations["en"];
+const currentLang = "en";
+const t = lang[currentLang];
+const heroData = t.aboutData; // adjust path in lang.json if your hero lives elsewhere
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>{t.meta.title}</title>
-  </head>
-  <body>
-    <Layout title={t.meta.title} author={t.meta.author}>
-      <About {...t.aboutData} />
-    </Layout>
-  </body>
-</html>
+<Layout title={t.meta.title} author={t.meta.author}>
+  <Hero
+    title={heroData.title}
+    subtitle={heroData.subtitle}
+    stack={heroData.stack}
+    contactLink={heroData.contactLink}
+    projectLink={heroData.projectLink}
+    client:visible
+  />
+</Layout>

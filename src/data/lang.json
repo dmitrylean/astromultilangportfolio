@@ -38,13 +38,9 @@
       "devnotes": "Заметки"
     },
     "aboutData": {
-      "imageSrc": "../assets/img/hero-photo.jpg",
-      "imageAlt": "Portrait of Adam Lean",
-      "title": "Обо мне",
-      "subtitle": "Привет! Я — Дмитрий, React-разработчик.",
-      "paragraphs": [
-        "Создаю современные веб-приложения на JavaScript и React. Работаю с WordPress и использую Python для автоматизации и разработки ботов."
-      ],
+      "title": "Привет, я - Дмитрий",
+      "subtitle": "React-разработчик",
+      "stack": ["JS / PHP / Python"],
       "contactLink": {
         "href": "/ru/Contact",
         "text": "Связаться со мной"
@@ -197,13 +193,9 @@
       "personal": "Personal"
     },
     "aboutData": {
-      "imageSrc": "../assets/img/hero-photo.jpg",
-      "imageAlt": "Portrait of Adam Lean",
-      "title": "About me",
-      "subtitle": "Hello! I'm Dmitry, a React developer.",
-      "paragraphs": [
-        "I create modern web applications with JavaScript and React. I work with WordPress and use Python for automation and bot development."
-      ],
+      "title": "Hi, I'm Dmitry",
+      "subtitle": "React Developer",
+      "stack": ["JS / PHP / Python"],
       "contactLink": {
         "href": "/en/Contact",
         "text": "Contact me"
