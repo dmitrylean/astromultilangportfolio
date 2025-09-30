@@ -145,3 +145,25 @@ html.dark .filter-active {
 html.dark .value {
   color: #fff;
 }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  html.dark .burger {
+    display: flex;
+    color: white;
+    background: black;
+  }
+
+  /* ==== NAV ==== */
+  html.dark .nav {
+    background: black;
+  }
+
+  html.dark .nav a {
+    color: white;
+  }
+
+  html.dark .nav a:hover {
+    color: red;
+  }
+}
