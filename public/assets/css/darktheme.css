@@ -1,0 +1,49 @@
+/* dark theme */
+html.dark body {
+  background: #121212;
+  color: #f0f0f0;
+}
+
+/* btn */
+.theme-btn {
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+html.dark .theme-btn {
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+html.dark .nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+html.dark .nav a:hover {
+  color: red;
+}
+
+html.dark .social-icons a {
+  color: white;
+}
+
+html.dark .legal-links,
+html.dark .legal-links a {
+  color: white;
+}
+
+html.dark h1,
+html.dark h2,
+html.dark h3,
+html.dark p {
+  color: white;
+}

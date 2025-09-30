@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./HeaderSection.css";
+import ThemeToggle from "./ThemeToggle";
 
 function Header({ menu = [] }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -63,6 +64,7 @@ function Header({ menu = [] }) {
               {item.text}
             </a>
           ))}
+          <ThemeToggle />
         </nav>
 
         {/* Overlay */}

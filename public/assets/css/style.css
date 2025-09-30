@@ -1,5 +1,6 @@
 @import "mobile.css";
 @import "copyright.css";
+@import "darktheme.css";
 /* @import "burger.css"; */
 
 /* Base Style */
@@ -266,7 +267,6 @@ a {
   text-align: center;
   padding-top: 20px;
   padding: 10px;
-  border-top: 1px solid #ccc;
 }
 
 .social-icons {
