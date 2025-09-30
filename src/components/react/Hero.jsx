@@ -8,29 +8,24 @@ import "./Hero.css";
 export default function Hero({
   title = "",
   subtitle = "",
-  paragraphs = [],
+  stack = [],
   contactLink = {},
   projectLink = {},
 }) {
   return (
     <section className="hero">
-      <div className="hero-content">
-        {/* The main title is centered and split with <br/> as requested */}
-        <h1 className="hero-title">
-          {title}
+      <div className="container">
+        <h1>
+          <span className="highlight">{title}</span>
           <br />
-          <span className="hero-subtitle">{subtitle}</span>
+          <span className="big">{subtitle}</span>
+          <br />
+          <span className="muted">{stack}</span>
         </h1>
-
-        {(paragraphs || []).map((p, i) => (
-          <p key={i} className="hero-paragraph">
-            {p}
-          </p>
-        ))}
 
         <div className="btn-grid">
           {/* Primary contact button — visible on desktop and mobile */}
-          <a href={contactLink.href || "#"} className="btn-primary contact-btn">
+          <a href={contactLink.href || "#"} className="btn-primary">
             {contactLink.text || "Contact"}
           </a>
 

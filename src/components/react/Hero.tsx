@@ -23,7 +23,7 @@ export default function Hero({
 }: HeroProps) {
   return (
     <section className="hero">
-      <div className="hero-content">
+      <div className="container">
         <h1>
           <span className="highlight">{title}</span>
           <br />
@@ -33,7 +33,7 @@ export default function Hero({
         </h1>
 
         <div className="btn-grid">
-          <a href={contactLink.href} className="btn-primary contact-btn">
+          <a href={contactLink.href} className="btn-primary">
             {contactLink.text}
           </a>
           <a href={projectLink.href} className="projects-btn">
