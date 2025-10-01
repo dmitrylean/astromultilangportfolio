@@ -5,6 +5,29 @@
 @import "theme.css";
  @import "burger.css"; */
 
+/* Roots */
+
+:root {
+  --text: #000000;
+}
+
+[data-theme="dark"] {
+  --bg: #0d0d0d;
+  --text: #f5f5f5;
+}
+
+[data-theme="dxhr"] {
+  --bg: #0a0a0a;
+  --text: #e3c97a;
+  --accent: #ffcc00;
+}
+
+[data-theme="mass-effect"] {
+  --bg: #050f1a;
+  --text: #cce4ff;
+  --accent: #39a9ff;
+}
+
 /* Base Style */
 
 *,
