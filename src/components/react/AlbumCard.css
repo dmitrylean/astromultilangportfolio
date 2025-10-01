@@ -48,7 +48,7 @@
 }
 
 .album-card .actions a:hover {
-  color: #007bff;
+  color: red;
 }
 
 .albums-section .container {

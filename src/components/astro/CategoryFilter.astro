@@ -49,6 +49,11 @@ const { categories, currentLang, catDict } = Astro.props;
     transition: all 0.3s ease;
   }
 
+  .categories-list a:hover {
+    background: red;
+    color: #fff;
+  }
+
   html.dark .categories-list {
     color: white;
   }

@@ -38,6 +38,10 @@ html.dark .social-icons a {
   color: white;
 }
 
+html.dark .social-icons a:hover {
+  color: red;
+}
+
 html.dark .legal-links,
 html.dark .legal-links a {
   color: white;
@@ -60,7 +64,8 @@ html.dark .projects {
   color: white;
 }
 
-html.dark .project-card {
+html.dark .project-card,
+html.dark .album-card {
   background: #1a1a1a;
   box-shadow: 0 4px 15px rgba(248, 248, 248, 0.5);
   transition: transform 0.3s ease;
@@ -68,6 +73,11 @@ html.dark .project-card {
 
 html.dark .icon {
   color: white;
+}
+
+html.dark .icon:hover {
+  color: red;
+  transform: scale(1.2);
 }
 
 html.dark .filter-btn {
@@ -81,6 +91,10 @@ html.dark .tab-btn {
 
 html.dark .project-links a {
   color: white;
+}
+
+html.dark .project-links a:hover {
+  color: red;
 }
 
 html.dark .track-info .title {
@@ -144,6 +158,16 @@ html.dark .filter-active {
 
 html.dark .value {
   color: #fff;
+}
+
+html.dark .album-card .info span,
+html.dark .album-card .info p,
+html.dark .album-card .actions a {
+  color: #fff;
+}
+
+html.dark .album-card .actions a:hover {
+  color: red;
 }
 
 /* ===== RESPONSIVE ===== */
