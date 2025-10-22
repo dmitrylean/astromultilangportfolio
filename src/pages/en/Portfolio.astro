@@ -1,6 +1,7 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import PageToggle from "../../components/react/PageToggle";
+// import PageToggle from "../../components/react/PageToggle";
+import WorksSection from "../../components/react/WorksSection";
 
 const currentLang = "en";
 ---
@@ -8,7 +9,8 @@ const currentLang = "en";
 <Layout title="Projects | Dmitry Lean">
   <main class="content">
     <div class="conteiner">
-      <PageToggle client:load />
+      <!-- <PageToggle client:load /> -->
+      <WorksSection client:load />
     </div>
   </main>
 </Layout>
