@@ -1,0 +1,41 @@
+[
+  {
+    "cover": "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg",
+    "imagetitle": "Factory Revolt",
+    "title": "WAR TREAD (ex-FACTORY REVOLT)",
+    "genre": "THRASH METAL / GROOVE METAL / BEATDOWN HARDCORE",
+    "year": "2024",
+    "description": "Un proyecto radical de izquierdas y antibélico se formó tras la desaparición de mi anterior y fallido proyecto. La música es una mezcla de thrash, groove metal, hardcore y punk. El proyecto pasó prácticamente desapercibido, pero para mí representó un avance en cuanto a letras y producción. También se convirtió en una forma de reflexionar sobre el mundo que me rodea, impidiéndome volverme loco. El proyecto se cerró y se renombró War Tread, donde solo publiqué una demo con dos temas..",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/5aoVzqwiZvp5Kh2Wm256Vx?si=kOR0UNznRQC82vUriUlmRw",
+      "itunes": "https://music.apple.com/us/artist/factory-revolt/1734794832",
+      "youtube": "https://www.youtube.com/channel/UC5vlB9R5pMEMwAgtG-XN43w"
+    }
+  },
+  {
+    "cover": "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg",
+    "imagetitle": "exhum0",
+    "title": "exhum0",
+    "genre": "BOOM BAP / SOUL / HIP HOP",
+    "year": "2024",
+    "description": "Un proyecto de creación de ritmos al estilo del hip-hop y el boom-bap de la vieja escuela. Se utilizaron samples de bandas de jazz soviéticas, bálticas, caucásicas y de Europa occidental para crear los ritmos. El proyecto se suspendió por falta de tiempo.",
+    "links": {
+      "spotify": "https://open.spotify.com/album/xyz",
+      "itunes": "https://music.apple.com/album/xyz",
+      "youtube": "https://youtube.com/watch?v=xyz"
+    }
+  },
+  {
+    "cover": "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg",
+    "imagetitle": "GOODFELLAH PROD.",
+    "title": "GOODFELLAH PROD.",
+    "genre": "BOOM BAP / SOUL / HIP HOP",
+    "year": "COMING SOON",
+    "description": "Un nuevo hito en mi carrera hip-hop. Quiero crear hip-hop de la vieja escuela, como en los 90. Es una reinvención de experiencias pasadas y un equilibrio entre la cultura hip-hop y el metal.",
+    "links": {
+      "spotify": "https://open.spotify.com/album/xyz",
+      "itunes": "https://music.apple.com/album/xyz",
+      "youtube": "https://youtube.com/watch?v=xyz"
+    }
+  }
+]

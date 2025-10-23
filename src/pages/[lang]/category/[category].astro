@@ -6,7 +6,7 @@ import { getCollection, type CollectionEntry } from "astro:content";
 import { extractCategories } from "../../../data/content";
 import type { GetStaticPaths } from "astro";
 
-type Lang = "ru" | "en";
+type Lang = "es" | "en";
 
 interface Props {
   lang: Lang;
@@ -20,7 +20,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
   const paths: Array<{ params: { lang: Lang; category: string } }> = [];
 
-  for (const lang of ["ru", "en"] as const) {
+  for (const lang of ["es", "en"] as const) {
     const langPosts = allPosts.filter((p) => p.slug.startsWith(`${lang}/`));
 
     const categories = Array.from(
@@ -107,8 +107,8 @@ const catDict = (langData as any)[lang].categories as Record<string, string>;
             </div>
           ) : (
             <p>
-              {lang === "ru"
-                ? "Нет постов в категории"
+              {lang === "es"
+                ? "No hay publicaciones en esta categoría."
                 : "No posts in this category"}
             </p>
           )

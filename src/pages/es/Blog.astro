@@ -4,7 +4,7 @@ import CategoryFilter from "../../components/astro/CategoryFilter.astro";
 import langData from "../../data/lang.json";
 import { getCollection } from "astro:content";
 
-const currentLang = "ru";
+const currentLang = "es";
 
 let posts = await getCollection("blog", ({ slug }) =>
   slug.startsWith(`${currentLang}/`)
@@ -28,11 +28,11 @@ const categories = [
   ),
 ];
 
-const safeLang: "ru" = (Astro.params.lang ?? "ru") as "ru";
+const safeLang: "es" = (Astro.params.lang ?? "es") as "es";
 const catDict = langData[safeLang].categories as Record<string, string>;
 ---
 
-<Layout title="Блог | Dmitry Lean">
+<Layout title="Blog | Dmitry Lean">
   <CategoryFilter
     categories={categories}
     currentLang={currentLang}

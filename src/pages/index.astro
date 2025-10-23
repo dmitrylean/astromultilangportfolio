@@ -2,7 +2,7 @@
 
 ---
 
-<html lang="ru">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <title>Redirecting…</title>
@@ -17,8 +17,8 @@
           if (lang === "en" && !location.pathname.startsWith("/en")) {
             window.location.replace("/en/");
           }
-          if (lang === "ru" && !location.pathname.startsWith("/ru")) {
-            window.location.replace("/ru/");
+          if (lang === "es" && !location.pathname.startsWith("/es")) {
+            window.location.replace("/es/");
           }
         }
 
@@ -30,7 +30,7 @@
           if (browserLang === "en") {
             redirectToLang("en");
           } else {
-            redirectToLang("ru"); // default is Russian
+            redirectToLang("es"); // default is Russian
           }
         } else {
           redirectToLang(savedLang);
@@ -41,7 +41,7 @@
   <body>
     <p>Redirecting…</p>
     <!-- Example: language switch buttons -->
-    <button onclick="setLanguage('ru')">Ru</button>
+    <button onclick="setLanguage('es')">Es</button>
     <button onclick="setLanguage('en')">En</button>
   </body>
 </html>

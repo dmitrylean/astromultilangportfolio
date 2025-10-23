@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./WorksSection.css";
-import workru from "../../data/portfolio.ru.json";
+import workes from "../../data/portfolio.es.json";
 import worken from "../../data/portfolio.en.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -16,7 +16,7 @@ const filters = [
 
 export default function Works() {
   const [activeFilter, setActiveFilter] = useState("all");
-  const [lang, setLang] = useState("ru");
+  const [lang, setLang] = useState("es");
 
   useEffect(() => {
     if (
@@ -27,7 +27,7 @@ export default function Works() {
     }
   }, []);
 
-  const projects = lang === "ru" ? workru : worken;
+  const projects = lang === "es" ? workes : worken;
 
   const filteredProjects =
     activeFilter === "all"

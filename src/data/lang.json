@@ -1,25 +1,25 @@
 {
-  "ru": {
+  "es": {
     "meta": {
-      "title": "Главная | Dmitry Lean",
+      "title": "Inicio | Dmitry Lean",
       "author": "Dmitry Lean"
     },
     "menu": [
       {
-        "href": "/ru/",
-        "text": "Главная"
+        "href": "/es/",
+        "text": "Inicio"
       },
       {
-        "href": "/ru/Portfolio",
-        "text": "Проекты"
+        "href": "/es/Portfolio",
+        "text": "Proyectos"
       },
       {
-        "href": "/ru/Blog",
-        "text": "Блог"
+        "href": "/es/Blog",
+        "text": "Blog"
       },
       {
-        "href": "/ru/Contact",
-        "text": "Контакты"
+        "href": "/es/Contact",
+        "text": "Contactos"
       },
       {
         "href": "/en/",
@@ -27,27 +27,27 @@
       }
     ],
     "labels": {
-      "blog": "Блог"
+      "blog": "Blog"
     },
     "categories": {
-      "ai": "Искусственный интеллект",
-      "development": "Разработка",
-      "psychology": "Психология",
-      "videogames": "Видеоигры",
-      "job": "Работа",
-      "devnotes": "Заметки"
+      "ai": "Inteligencia artificial",
+      "development": "Desarrollo",
+      "psychology": "Psicología",
+      "videogames": "Juegos de vídeo",
+      "job": "Trabajo",
+      "devnotes": "Notas"
     },
     "aboutData": {
-      "title": "Привет, я - Дмитрий",
-      "subtitle": "React-разработчик",
+      "title": "Hola, soy Dmitry.",
+      "subtitle": "Desarrollador de React",
       "stack": ["JS / PHP / Python"],
       "contactLink": {
-        "href": "/ru/Contact",
-        "text": "Связаться со мной"
+        "href": "/es/Contact",
+        "text": "Contáctame"
       },
       "projectLink": {
-        "href": "/ru/Portfolio",
-        "text": "Проекты"
+        "href": "/es/Portfolio",
+        "text": "Proyectos"
       }
     },
     "skillsData": {
@@ -129,15 +129,15 @@
     },
     "footer": {
       "author": "Dmitry Lean",
-      "rights": "Все права защищены.",
+      "rights": "Reservados todos los derechos.",
       "legalLinks": [
         {
-          "href": "/ru/Terms",
-          "text": "Пользовательское соглашение"
+          "href": "/es/Terms",
+          "text": "Acuerdo de usuario"
         },
         {
-          "href": "/ru/Privacy",
-          "text": "Политика конфиденциальности"
+          "href": "/es/Privacy",
+          "text": "Política de privacidad"
         }
       ],
       "socialLinks": [
@@ -179,8 +179,8 @@
         "text": "Contact"
       },
       {
-        "href": "/ru/",
-        "text": "RU"
+        "href": "/es/",
+        "text": "ES"
       }
     ],
     "labels": {

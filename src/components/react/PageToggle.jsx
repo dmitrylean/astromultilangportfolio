@@ -4,14 +4,14 @@ import MusicProjects from "./MusicProjects.jsx";
 import AlbumCard from "./AlbumCard.jsx";
 import Tracklist from "./Tracklist.jsx";
 import albumsEn from "../../data/albums.en.json";
-import albumsRu from "../../data/albums.ru.json";
+import albumsEs from "../../data/albums.es.json";
 import "./PageToggle.css";
 
 export default function PageToggle({ lang = "en" }) {
   const [activeTab, setActiveTab] = useState("works");
 
   // albums by language
-  const albumsData = lang === "ru" ? albumsRu : albumsEn;
+  const albumsData = lang === "es" ? albumsEs : albumsEn;
 
   // translations
   const t = {
@@ -21,11 +21,11 @@ export default function PageToggle({ lang = "en" }) {
       albums: "Albums",
       tracks: "Beats",
     },
-    ru: {
-      works: "Работы",
-      music: "Музыка",
-      albums: "Альбомы",
-      tracks: "Beats",
+    es: {
+      works: "Obras",
+      music: "Música",
+      albums: "Álbumes",
+      tracks: "Ritmos",
     },
   }[lang];
 

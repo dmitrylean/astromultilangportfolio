@@ -1,16 +1,16 @@
 ---
-import workru from "../../data/portfolio.ru.json";
+import workes from "../../data/portfolio.es.json";
 import worken from "../../data/portfolio.en.json";
 
 const lang = Astro.url.pathname.startsWith("/en") ? "en" : "ru";
-const works = lang === "ru" ? workru : worken;
+const works = lang === "ru" ? workes : worken;
 ---
 
 <link rel="stylesheet" href="/assets/css/update.css" />
 <section class="work section" id="work">
   <div class="work-filters">
     <span class="work-item active-work" data-filter="all">
-      {lang === "ru" ? "Все" : "All"}
+      {lang === "ru" ? "Todo" : "All"}
     </span>
     <span class="work-item" data-filter=".wordpress">Wordpress</span>
     <span class="work-item" data-filter=".react">React</span>

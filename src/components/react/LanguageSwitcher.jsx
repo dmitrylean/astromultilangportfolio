@@ -29,8 +29,8 @@ export default function LanguageSwitcher() {
         EN
       </button>
       <button
-        className={`px-2 py-1 rounded ${lang === "ru" ? "bg-blue-500 text-white" : "bg-gray-200"}`}
-        onClick={() => switchLang("ru")}
+        className={`px-2 py-1 rounded ${lang === "es" ? "bg-blue-500 text-white" : "bg-gray-200"}`}
+        onClick={() => switchLang("es")}
       >
         RU
       </button>

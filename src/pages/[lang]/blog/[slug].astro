@@ -3,7 +3,7 @@ import Layout from "../../../layouts/Layout.astro";
 import { getCollection, type CollectionEntry } from "astro:content";
 import type { GetStaticPaths } from "astro";
 
-type Lang = "ru" | "en";
+type Lang = "es" | "en";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const allPosts = await getCollection("blog");

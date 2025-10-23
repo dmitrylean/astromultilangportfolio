@@ -12,8 +12,8 @@
         const path = window.location.pathname;
 
         // redirect only if not already on the localized 404
-        if (userLang.startsWith("ru") && !path.startsWith("/ru/404")) {
-          window.location.replace("/ru/404/");
+        if (userLang.startsWith("ru") && !path.startsWith("/es/404")) {
+          window.location.replace("/es/404/");
         } else if (userLang.startsWith("en") && !path.startsWith("/en/404")) {
           window.location.replace("/en/404/");
         } else {

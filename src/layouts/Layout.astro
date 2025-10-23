@@ -4,15 +4,12 @@ import HeaderSection from "../components/react/HeaderSection.jsx";
 // import Header from "../../components/astro/Header.astro";
 import Footer from "../components/astro/Footer.astro";
 
-// Определяем язык по URL
 const pathname = Astro.url.pathname;
-const locale = pathname.startsWith("/en") ? "en" : "ru";
+const locale = pathname.startsWith("/en") ? "en" : "es";
 const t = lang[locale];
 
-const {
-  title = "Adam Lean",
-  description = "Software Developer: Frontend, Python, Wordpress",
-} = Astro.props;
+const { title = "Dmitry Lean", description = "Software Developer" } =
+  Astro.props;
 ---
 
 <!doctype html>

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../../../public/assets/css/music.css";
 import MusicProjects from "../../modules/MusicProjects";
-import albumsru from "../../data/albums.ru.json";
+import albumses from "../../data/albums.es.json";
 import albumsen from "../../data/albums.en.json";
 import AlbumCard from "../../modules/AlbumCard";
 
@@ -19,14 +19,14 @@ function Discography() {
     }
   }, []);
 
-  const albumsData = lang === "ru" ? albumsru : albumsen;
+  const albumsData = lang === "es" ? albumses : albumsen;
 
   return (
     <main className="content">
       <div className="albums-section">
         <div className="container">
           <h2 className="album-title">
-            {lang === "ru" ? "Альбомы" : "Albums"}
+            {lang === "es" ? "Álbumes" : "Albums"}
           </h2>
           <div className="albums-gallery">
             <div className="discography-grid">

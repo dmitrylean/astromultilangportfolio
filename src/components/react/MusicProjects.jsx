@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./MusicProjects.css";
 import ProjectLinks from "./ProjectLinks";
-import projectsru from "../../data/musicprojects.ru.json";
+import projectses from "../../data/musicprojects.es.json";
 import projectsen from "../../data/musicprojects.en.json";
 
 function MusicProjects() {
-  const [lang, setLang] = useState("ru");
+  const [lang, setLang] = useState("es");
 
   useEffect(() => {
     if (
@@ -16,13 +16,13 @@ function MusicProjects() {
     }
   }, []);
 
-  const projects = lang === "en" ? projectsen : projectsru;
+  const projects = lang === "en" ? projectsen : projectses;
 
   return (
     <section className="projects">
       <div className="container">
         <h2 className="projects-title">
-          {lang === "ru" ? "Проекты" : "Projects"}
+          {lang === "es" ? "Proyectos" : "Projects"}
         </h2>
         <div className="projects-content">
           {projects.map((project, index) => (

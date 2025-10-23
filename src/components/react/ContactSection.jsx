@@ -22,25 +22,25 @@ const translations = {
     info2:
       "All my projects are hosted on GitHub and deployed on Netlify (or other services). You can test any project live.",
   },
-  ru: {
-    titleForm: "Написать мне:",
+  es: {
+    titleForm: "Escríbeme:",
     labels: {
-      name: "Имя",
+      name: "Nombre",
       email: "Email",
-      message: "Сообщение",
+      message: "Mensaje",
     },
     placeholders: {
-      name: "Напишите свое имя",
+      name: "Escribe tu nombre",
       email: "your.email@example.com",
-      message: "Опишите свою проблему",
+      message: "Describe tu problema",
     },
-    submit: "Отправить Сообщение →",
-    titleInfo: "Контактная информация",
-    important: "Важно!",
+    submit: "Enviar mensaje →",
+    titleInfo: "Información del contacto",
+    important: "¡Importante!",
     info1:
-      "Я не веду социальные сети и предпочитаю минимизировать публичность. Для связи доступны электронная почта и Telegram.",
+      "No uso redes sociales y prefiero mantener mi perfil público al mínimo. Estoy disponible para comunicarme por correo electrónico y Telegram.",
     info2:
-      "Все мои проекты размещены на GitHub и развернуты на Netlify (или других сервисах). Любой проект можно протестировать вживую.",
+      "Todos mis proyectos están alojados en GitHub y se implementan en Netlify (y otros servicios). Cualquier proyecto puede probarse en vivo..",
   },
 };
 
